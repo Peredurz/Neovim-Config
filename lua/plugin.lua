@@ -28,10 +28,9 @@ require('lazy').setup({
     -- Git related plugins
     'tpope/vim-fugitive',
     'tpope/vim-rhubarb',
-
     'saadparwaiz1/cmp_luasnip',
     'windwp/nvim-autopairs',
-
+    'fatih/vim-go',
     'ThePrimeagen/vim-be-good',
     'jose-elias-alvarez/null-ls.nvim',
     -- Nvim-tree
@@ -101,6 +100,8 @@ require('lazy').setup({
                     { buffer = bufnr, desc = '[G]o to [N]ext Hunk' })
                 vim.keymap.set('n', '<leader>ph', require('gitsigns').preview_hunk,
                     { buffer = bufnr, desc = '[P]review [H]unk' })
+                vim.keymap.set('n', '<leader>gb', require('gitsigns').blame_line,
+                    { buffer = bufnr, desc = '[G]it [B]lame' })
             end,
         },
     },
@@ -114,20 +115,27 @@ require('lazy').setup({
         end,
     },
 
+    -- Set lualine as statusline
     {
-        -- Set lualine as statusline
         'nvim-lualine/lualine.nvim',
-        -- See `:help lualine.txt`
         opts = {
             options = {
-                icons_enabled = false,
                 theme = 'onedark',
-                component_separators = '|',
-                section_separators = '',
+                section_separators = { '', '' },
+                component_separators = { '', '' },
+                icons_enabled = true,
+                sections = {
+                    lualine_a = { 'mode' },
+                    lualine_b = { 'branch', 'diff', 'diagnostics' },
+                    lualine_c = { 'filename' },
+                    lualine_x = { 'encoding', 'fileformat', 'filetype' },
+                    lualine_y = { 'progress' },
+                    lualine_z = { 'location' }
+                },
             },
-        },
-    },
 
+        }
+    },
     {
         -- Add indentation guides even on blank lines
         'lukas-reineke/indent-blankline.nvim',
@@ -164,7 +172,20 @@ require('lazy').setup({
         },
         build = ':TSUpdate',
     },
-
+    {
+        "ray-x/go.nvim",
+        dependencies = { -- optional packages
+            "ray-x/guihua.lua",
+            "neovim/nvim-lspconfig",
+            "nvim-treesitter/nvim-treesitter",
+        },
+        config = function()
+            require("go").setup()
+        end,
+        event = { "CmdlineEnter" },
+        ft = { "go", 'gomod' },
+        build = ':lua require("go.install").update_all_sync()' -- if you need to install/update all binaries
+    },
     -- NOTE: Next Step on Your Neovim Journey: Add/Configure additional "plugins" for kickstart
     --       These are some example plugins that I've included in the kickstart repository.
     --       Uncomment any of the lines below to enable them.
