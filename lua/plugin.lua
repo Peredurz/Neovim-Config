@@ -111,7 +111,7 @@ require('lazy').setup({
         'folke/tokyonight.nvim',
         priority = 1000,
         config = function()
-            vim.cmd.colorscheme 'tokyonight-night'
+            vim.cmd.colorscheme 'tokyonight-storm'
         end,
     },
 
@@ -141,7 +141,6 @@ require('lazy').setup({
         'lukas-reineke/indent-blankline.nvim',
         -- Enable `lukas-reineke/indent-blankline.nvim`
         -- See `:help indent_blankline.txt`,
-        main = "ibl",
         opts = { indent = { char = "┊" } },
     },
 

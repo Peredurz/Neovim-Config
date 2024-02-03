@@ -47,9 +47,7 @@ vim.keymap.set('i', '<C-J>', 'copilot#Accept("<CR>")',
 )
 vim.g.copilot_no_tab_map = true
 
-
 require('plugin')
-require('treesitter')
 require('keymap')
 require('telescoop')
 require('lsp')
@@ -64,10 +62,7 @@ require('file-icons')
 -- See `:help vim.o`
 -- NOTE: You can change these options as you wish!
 
-
-
-
-
+vim.cmd('TSEnable highlight')
 
 
 
