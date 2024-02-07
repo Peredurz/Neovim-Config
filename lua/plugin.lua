@@ -78,9 +78,28 @@ require('lazy').setup({
             'rafamadriz/friendly-snippets',
         },
     },
-
+    { 'hrsh7th/cmp-cmdline' },
+    {
+        "folke/noice.nvim",
+        event = "VeryLazy",
+        opts = {
+            routes = {
+                {
+                    filter = { event = "notify", find = "No infromation available" },
+                    opts = { skip = true },
+                },
+            },
+            presets = {
+                lsp_doc_border = true,
+            },
+        },
+        dependencies = {
+            "MunifTanjim/nui.nvim",
+            "rcarriga/nvim-notify",
+        },
+    },
     -- Useful plugin to show you pending keybinds.
-    { 'folke/which-key.nvim',          opts = {} },
+    { 'folke/which-key.nvim', opts = {} },
     {
         -- Adds git releated signs to the gutter, as well as utilities for managing changes
         'lewis6991/gitsigns.nvim',
@@ -140,7 +159,8 @@ require('lazy').setup({
         -- Add indentation guides even on blank lines
         'lukas-reineke/indent-blankline.nvim',
         -- Enable `lukas-reineke/indent-blankline.nvim`
-        -- See `:help indent_blankline.txt`,
+        -- See `:help indent_blankline.txt`
+        main = "ibl",
         opts = { indent = { char = "┊" } },
     },
 

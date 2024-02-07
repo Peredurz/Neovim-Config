@@ -14,3 +14,4 @@ vim.api.nvim_set_keymap("n", "<leader>tf", "<CMD>NvimTreeFocus<CR>", { noremap =
 vim.api.nvim_set_keymap("n", "<leader>tc", "<CMD>NvimTreeClose<CR>", { noremap = true })
 vim.api.nvim_set_keymap("n", "<leader>ts", "<CMD>TSEnable highlight<CR>", { noremap = true })
 vim.api.nvim_set_keymap("n", "<leader>i", "<CMD>lua vim.lsp.buf.hover()<CR>", { noremap = true })
+vim.api.nvim_set_keymap("n", "<leader>nd", "<CMD>NoiceDismiss<CR>", { noremap = true, desc = "Dismiss Noice Message" })

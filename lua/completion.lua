@@ -1,7 +1,8 @@
 -- [[ Configure nvim-cmp ]
 -- See `:help cmp`
 local cmp = require 'cmp'
-local luasnip = require 'luasnip'
+local luasnip = require('luasnip')
+require("ibl").setup()
 require('luasnip.loaders.from_vscode').lazy_load()
 luasnip.config.setup {}
 
@@ -50,5 +51,17 @@ cmp.setup {
     { name = 'emoji' },
     { name = 'treesitter' },
     { name = 'gopls' },
+
   },
 }
+
+cmp.setup.cmdline('/', {
+  mapping = cmp.mapping.preset.cmdline(),
+  sources = cmp.config.sources({ { name = 'buffer' } }),
+})
+
+
+cmp.setup.cmdline(':', {
+  mapping = cmp.mapping.preset.cmdline(),
+  sources = cmp.config.sources({ { name = 'path' }, { name = 'cmdline', option = { ignore_cmds = { 'Man', '!' } } } }),
+})
