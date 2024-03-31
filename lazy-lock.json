@@ -36,6 +36,7 @@
   "vim-be-good": { "branch": "master", "commit": "4fa57b7957715c91326fcead58c1fa898b9b3625" },
   "vim-fugitive": { "branch": "master", "commit": "e7bf502a6ae492f42a91d231864e25630286319b" },
   "vim-go": { "branch": "master", "commit": "18171a41a18dfc59fb0475a00d5c1e9ddb3d22d4" },
+  "vim-monokai": { "branch": "master", "commit": "6b6c2b698e94d0af8d8f2307be01571ab8b7b74f" },
   "vim-rhubarb": { "branch": "master", "commit": "ee69335de176d9325267b0fd2597a22901d927b1" },
   "vim-sleuth": { "branch": "master", "commit": "1cc4557420f215d02c4d2645a748a816c220e99b" },
   "which-key.nvim": { "branch": "main", "commit": "4433e5ec9a507e5097571ed55c02ea9658fb268a" }

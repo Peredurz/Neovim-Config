@@ -133,7 +133,11 @@ require('lazy').setup({
             vim.cmd.colorscheme 'tokyonight-storm'
         end,
     },
-
+    {
+        -- Theme Monokai used when writing in latex documents
+        'crusoexia/vim-monokai',
+        ft = { 'tex' },
+    },
     -- Set lualine as statusline
     {
         'nvim-lualine/lualine.nvim',
