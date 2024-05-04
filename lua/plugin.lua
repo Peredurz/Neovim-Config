@@ -36,7 +36,7 @@ require('lazy').setup({
     -- Nvim-tree
     'nvim-tree/nvim-tree.lua',
     -- Copilot
-    'github/copilot.vim',
+    --'github/copilot.vim',
     -- Nvim-webdev-Icons
     'nvim-tree/nvim-web-devicons',
     -- Detect tabstop and shiftwidth automatically
@@ -209,7 +209,11 @@ require('lazy').setup({
         ft = { "go", 'gomod' },
         build = ':lua require("go.install").update_all_sync()' -- if you need to install/update all binaries
     },
-    -- NOTE: Next Step on Your Neovim Journey: Add/Configure additional "plugins" for kickstart
+    {
+        'mrcjkb/haskell-tools.nvim',
+        version = '^3', -- Recommended
+        lazy = false, -- This plugin is already lazy
+    },            -- NOTE: Next Step on Your Neovim Journey: Add/Configure additional "plugins" for kickstart
     --       These are some example plugins that I've included in the kickstart repository.
     --       Uncomment any of the lines below to enable them.
     -- require 'kickstart.plugins.autoformat',
