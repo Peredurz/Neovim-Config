@@ -26,6 +26,7 @@ vim.o.clipboard = "unnamedplus"
 
 -- Enable break indent
 vim.o.breakindent = true
+--vim.o.nosmartindent = true
 
 -- Save undo history
 vim.o.undofile = true

@@ -56,18 +56,16 @@ require('lazy').setup({
 
             -- Useful status updates for LSP
             -- NOTE: `opts = {}` is the same as calling `require('fidget').setup({})`
-            { 'j-hui/fidget.nvim',       tag = 'legacy',
-                opts = {
-                    progres = {
-                        suppress_on_insert = true,
-                    },
-            } },
 
             -- Additional lua configuration, makes nvim stuff amazing!
             'folke/neodev.nvim',
         },
     },
-
+    {
+        'j-hui/fidget.nvim',
+        opts = {
+        },
+    },
     {
         -- Autocompletion
         'hrsh7th/nvim-cmp',
@@ -89,13 +87,29 @@ require('lazy').setup({
         event = "VeryLazy",
         opts = {
             routes = {
+                -- Filter out specific LSP progress notifications (like "checking document")
                 {
-                    filter = { event = "notify", find = "No infromation available" },
+                    filter = {
+                        event = "lsp",
+                        kind = "progress",
+                        find = "Checking document", -- Adjust this string if the message differs
+                    },
+                    opts = {
+                        format = function(msg)
+                            -- Extract just the file name from the full path
+                            local file = msg:match("^.+/(.+)$") or msg
+                            return file
+                        end,
+                    },
+                },
+                -- Continue to skip "No information available" notifications
+                {
+                    filter = { event = "notify", find = "No information available" },
                     opts = { skip = true },
                 },
             },
             presets = {
-                lsp_doc_border = true,
+                lsp_doc_border = true, -- Optional: for adding border to LSP hover docs
             },
         },
         dependencies = {
@@ -217,8 +231,8 @@ require('lazy').setup({
     {
         'mrcjkb/haskell-tools.nvim',
         version = '^3', -- Recommended
-        lazy = false, -- This plugin is already lazy
-    },            -- NOTE: Next Step on Your Neovim Journey: Add/Configure additional "plugins" for kickstart
+        lazy = false,   -- This plugin is already lazy
+    },                  -- NOTE: Next Step on Your Neovim Journey: Add/Configure additional "plugins" for kickstart
     --       These are some example plugins that I've included in the kickstart repository.
     --       Uncomment any of the lines below to enable them.
     -- require 'kickstart.plugins.autoformat',
