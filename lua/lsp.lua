@@ -53,15 +53,7 @@ local servers = {
     settings = {
     }
   },
-  gopls = {
-    gopls = {
-      analyses = {
-        unusedparams = true,
-      },
-      staticcheck = true,
-    },
-  },
-  -- pyright = {},
+  pyright = {},
   -- rust_analyzer = {},
   -- tsserver = {},
   lua_ls = {
@@ -70,6 +62,16 @@ local servers = {
       telemetry = { enable = false },
     },
   },
+  ltex = {  -- Add ltex configuration
+    settings = {
+      ltex = {
+        language = "nl",  -- Set language to Dutch
+        diagnosticSeverity = "information",
+        markDown = true,
+      }
+    }
+  },
+
 }
 
 -- csharp_ls server start

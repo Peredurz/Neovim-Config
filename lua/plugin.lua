@@ -30,7 +30,6 @@ require('lazy').setup({
     'tpope/vim-rhubarb',
     'saadparwaiz1/cmp_luasnip',
     'windwp/nvim-autopairs',
-    'fatih/vim-go',
     'ThePrimeagen/vim-be-good',
     'jose-elias-alvarez/null-ls.nvim',
     -- Nvim-tree
@@ -143,7 +142,26 @@ require('lazy').setup({
             end,
         },
     },
-
+    {
+        "kdheepak/lazygit.nvim",
+        lazy = true,
+        cmd = {
+            "LazyGit",
+            "LazyGitConfig",
+            "LazyGitCurrentFile",
+            "LazyGitFilter",
+            "LazyGitFilterCurrentFile",
+        },
+        -- optional for floating window border decoration
+        dependencies = {
+            "nvim-lua/plenary.nvim",
+        },
+        -- setting the keybinding for LazyGit with 'keys' is recommended in
+        -- order to load the plugin when the command is run for the first time
+        keys = {
+            { "<leader>lg", "<cmd>LazyGit<cr>", desc = "LazyGit" }
+        }
+    },
     {
         -- Theme inspired by Atom
         'folke/tokyonight.nvim',
@@ -214,25 +232,7 @@ require('lazy').setup({
         },
         build = ':TSUpdate',
     },
-    {
-        "ray-x/go.nvim",
-        dependencies = { -- optional packages
-            "ray-x/guihua.lua",
-            "neovim/nvim-lspconfig",
-            "nvim-treesitter/nvim-treesitter",
-        },
-        config = function()
-            require("go").setup()
-        end,
-        event = { "CmdlineEnter" },
-        ft = { "go", 'gomod' },
-        build = ':lua require("go.install").update_all_sync()' -- if you need to install/update all binaries
-    },
-    {
-        'mrcjkb/haskell-tools.nvim',
-        version = '^3', -- Recommended
-        lazy = false,   -- This plugin is already lazy
-    },                  -- NOTE: Next Step on Your Neovim Journey: Add/Configure additional "plugins" for kickstart
+    { 'akinsho/bufferline.nvim', version = "*", dependencies = 'nvim-tree/nvim-web-devicons' },
     --       These are some example plugins that I've included in the kickstart repository.
     --       Uncomment any of the lines below to enable them.
     -- require 'kickstart.plugins.autoformat',

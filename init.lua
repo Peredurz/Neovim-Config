@@ -41,6 +41,7 @@ P.S. You can delete this when you're done too. It's your config now :)
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 vim.g.nofsync = true
+vim.o.mousemoveevent = true
 
 
 require('plugin')
@@ -54,8 +55,8 @@ require('opts')
 require('autopairs-config')
 require('nvim-boom')
 require('file-icons')
-require('haskell')
 require('treesitter')
+require('bufferl')
 -- [[ Setting options ]]
 -- See `:help vim.o`
 -- NOTE: You can change these options as you wish!
@@ -69,3 +70,19 @@ vim.cmd('TSEnable indent')
 -- vim: ts=2 sts=2 sw=2 et
 --
 -- set control tab to accept code lsp completion
+-- Function to check if LaTeX project exists in the current directory
+local function is_latex_project()
+  local latex_files = vim.fn.glob("*.tex")
+  return latex_files ~= ""
+end
+
+-- Apply filter only if it's a LaTeX project
+if is_latex_project() then
+  require('nvim-tree').setup {
+    filters = {
+      custom = { "\\.aux$", "\\.bcf$", "\\.blg$", "\\.fdb_latexmk$", "\\.fls$", "\\.log$", "\\.out$", "\\.xml$", "\\.bbl.*$" }
+    }
+  }
+else
+  require('nvim-tree').setup {}
+end
