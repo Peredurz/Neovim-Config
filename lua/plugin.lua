@@ -161,7 +161,14 @@ require('lazy').setup({
         keys = {
             { "<leader>lg", "<cmd>LazyGit<cr>", desc = "LazyGit" }
         }
-    },
+    }, {
+    "crnvl96/lazydocker.nvim",
+    event = "VeryLazy",
+    opts = {},     -- automatically calls `require("lazydocker").setup()`
+    dependencies = {
+        "MunifTanjim/nui.nvim",
+    }
+},
     {
         -- Theme inspired by Atom
         'folke/tokyonight.nvim',
@@ -169,11 +176,6 @@ require('lazy').setup({
         config = function()
             vim.cmd.colorscheme 'tokyonight-storm'
         end,
-    },
-    {
-        -- Theme Monokai used when writing in latex documents
-        'crusoexia/vim-monokai',
-        ft = { 'tex' },
     },
     -- Set lualine as statusline
     {

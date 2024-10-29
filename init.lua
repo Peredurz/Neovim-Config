@@ -80,9 +80,17 @@ end
 if is_latex_project() then
   require('nvim-tree').setup {
     filters = {
-      custom = { "\\.aux$", "\\.bcf$", "\\.blg$", "\\.fdb_latexmk$", "\\.fls$", "\\.log$", "\\.out$", "\\.xml$", "\\.bbl.*$" }
+      custom = { "\\.aux$", "\\.bcf$", "\\.blg$", "\\.fdb_latexmk$", "\\.fls$", "\\.log$", "\\.out$", "\\.xml$", "\\.bbl.*$", "\\.data.minted$", "\\.synctex.gz$", "_minted" }
     }
   }
 else
   require('nvim-tree').setup {}
 end
+-- Apply the same file ignore filter for Telescope if it's a LaTeX project
+require('telescope').setup{
+  defaults = {
+    file_ignore_patterns = is_latex_project() and {
+      "%.aux$", "%.bcf$", "%.blg$", "%.fdb_latexmk$", "%.fls$", "%.log$", "%.out$", "%.xml$", "%.bbl.*$", "%.data.minted$", "%.synctex.gz$", "_minted"
+    } or {}
+  }
+}

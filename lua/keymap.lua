@@ -16,7 +16,9 @@ vim.api.nvim_set_keymap("n", "<leader>0", "<CMD>BufferLineGoToBuffer -1<CR>", { 
 vim.api.nvim_set_keymap("n", "<TAB>", ":BufferLineCycleNext<CR>", { noremap = true, silent = true })
 vim.api.nvim_set_keymap("n", "<S-TAB>", ":BufferLineCyclePrev<CR>", { noremap = true, silent = true })
 
-vim.api.nvim_set_keymap("n", "<C-b>", ":BufferLineCloseOthers<CR>", { noremap=true, silent=true })
+vim.api.nvim_set_keymap("n", "<C-b>", ":BufferLineCloseOthers<CR>", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("n", "<leader>gD", ":BufferLinePickClose<CR>", { noremap = true, silent = true })
+
 
 vim.api.nvim_set_keymap("n", "<leader>tn", "<CMD>tabnew<CR>", { noremap = true })
 vim.api.nvim_set_keymap("n", "<leader>to", "<CMD>NvimTreeToggle<CR>", { noremap = true })
@@ -25,3 +27,5 @@ vim.api.nvim_set_keymap("n", "<leader>tc", "<CMD>NvimTreeClose<CR>", { noremap =
 vim.api.nvim_set_keymap("n", "<leader>ts", "<CMD>TSEnable highlight<CR>", { noremap = true })
 vim.api.nvim_set_keymap("n", "<leader>i", "<CMD>lua vim.lsp.buf.hover()<CR>", { noremap = true })
 vim.api.nvim_set_keymap("n", "<leader>nd", "<CMD>NoiceDismiss<CR>", { noremap = true, desc = "Dismiss Noice Message" })
+
+vim.api.nvim_set_keymap("n", "<leader>ld", "<CMD>LazyDocker<CR>", { noremap = true, silent = true })
