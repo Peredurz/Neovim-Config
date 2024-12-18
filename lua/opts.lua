@@ -69,3 +69,4 @@ vim.api.nvim_create_autocmd("TextYankPost", {
     group = highlight_group,
     pattern = "*",
 })
+vim.g.snacks_animate = false
