@@ -1,5 +1,4 @@
 --[[
-
 =====================================================================
 ==================== READ THIS BEFORE CONTINUING ====================
 =====================================================================
@@ -46,13 +45,11 @@ vim.o.mousemoveevent = true
 
 require('plugin')
 require('keymap')
-require('telescoop')
+ require('telescoop')
 require('lsp')
 require('diagnostic')
-require('completion')
 require('null_ls')
 require('opts')
-require('autopairs-config')
 require('nvim-boom')
 require('file-icons')
 require('treesitter')

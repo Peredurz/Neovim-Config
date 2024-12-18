@@ -28,8 +28,7 @@ require('lazy').setup({
     -- Git related plugins
     'tpope/vim-fugitive',
     'tpope/vim-rhubarb',
-    'saadparwaiz1/cmp_luasnip',
-    'windwp/nvim-autopairs',
+    'L3MON4D3/LuaSnip',
     'ThePrimeagen/vim-be-good',
     'jose-elias-alvarez/null-ls.nvim',
     -- Nvim-tree
@@ -58,6 +57,34 @@ require('lazy').setup({
 
             -- Additional lua configuration, makes nvim stuff amazing!
             'folke/neodev.nvim',
+            'saghen/blink.cmp'
+        },
+    },
+    {
+        'windwp/nvim-autopairs',
+        event = "InsertEnter",
+        config = true
+        -- use opts = {} for passing setup options
+        -- this is equivalent to setup({}) function
+    },
+    {
+        "folke/snacks.nvim",
+        priority = 1000,
+        lazy = false,
+        ---@type snacks.Config
+        opts = {
+          -- your configuration comes here
+          -- or leave it empty to use the default settings
+          -- refer to the configuration section below
+          bigfile = { enabled = true },
+          dashboard = { enabled = true },
+          indent = { enabled = true },
+          input = { enabled = true },
+          notifier = { enabled = true },
+          quickfile = { enabled = true },
+          scroll = { enabled = true },
+          statuscolumn = { enabled = true },
+          words = { enabled = true },
         },
     },
     {
@@ -66,21 +93,52 @@ require('lazy').setup({
         },
     },
     {
-        -- Autocompletion
-        'hrsh7th/nvim-cmp',
-        dependencies = {
-            -- Snippet Engine & its associated nvim-cmp source
-            'L3MON4D3/LuaSnip',
-            'saadparwaiz1/cmp_luasnip',
+        'saghen/blink.cmp',
+        -- optional: provides snippets for the snippet source
+        dependencies = 'rafamadriz/friendly-snippets',
 
-            -- Adds LSP completion capabilities
-            'hrsh7th/cmp-nvim-lsp',
+        -- use a release tag to download pre-built binaries
+        version = 'v0.*',
+        -- AND/OR build from source, requires nightly: https://rust-lang.github.io/rustup/concepts/channels.html#working-with-nightly-rust
+        -- build = 'cargo build --release',
+        -- If you use nix, you can build from source using latest nightly rust with:
+        -- build = 'nix run .#build-plugin',
 
-            -- Adds a number of user-friendly snippets
-            'rafamadriz/friendly-snippets',
+        ---@module 'blink.cmp'
+        ---@type blink.cmp.Config
+        opts = {
+            -- 'default' for mappings similar to built-in completion
+            -- 'super-tab' for mappings similar to vscode (tab to accept, arrow keys to navigate)
+            -- 'enter' for mappings similar to 'super-tab' but with 'enter' to accept
+            -- see the "default configuration" section below for full documentation on how to define
+            -- your own keymap.
+            keymap = { preset = 'default' },
+
+            appearance = {
+                -- Sets the fallback highlight groups to nvim-cmp's highlight groups
+                -- Useful for when your theme doesn't support blink.cmp
+                -- will be removed in a future release
+                use_nvim_cmp_as_default = true,
+                -- Set to 'mono' for 'Nerd Font Mono' or 'normal' for 'Nerd Font'
+                -- Adjusts spacing to ensure icons are aligned
+                nerd_font_variant = 'mono'
+            },
+
+            -- default list of enabled providers defined so that you can extend it
+            -- elsewhere in your config, without redefining it, via `opts_extend`
+            sources = {
+                default = { 'lsp', 'path', 'snippets', 'buffer' },
+                -- optionally disable cmdline completions
+                -- cmdline = {},
+            },
+
+            -- experimental signature help support
+            -- signature = { enabled = true }
         },
+        -- allows extending the providers array elsewhere in your config
+        -- without having to redefine it
+        opts_extend = { "sources.default" }
     },
-    { 'hrsh7th/cmp-cmdline' },
     {
         "folke/noice.nvim",
         event = "VeryLazy",
@@ -117,7 +175,7 @@ require('lazy').setup({
         },
     },
     -- Useful plugin to show you pending keybinds.
-    { 'folke/which-key.nvim', opts = {} },
+    { 'folke/which-key.nvim',          opts = {} },
     {
         -- Adds git releated signs to the gutter, as well as utilities for managing changes
         'lewis6991/gitsigns.nvim',
@@ -204,24 +262,16 @@ require('lazy').setup({
         main = "ibl",
         opts = { indent = { char = "┊" } },
     },
-
     -- "gc" to comment visual regions/lines
     { 'numToStr/Comment.nvim',         opts = {} },
-
-    -- Fuzzy Finder (files, lsp, etc)
-    { 'nvim-telescope/telescope.nvim', branch = '0.1.x', dependencies = { 'nvim-lua/plenary.nvim' } },
-
-    -- Fuzzy Finder Algorithm which requires local dependencies to be built.
-    -- Only load if `make` is available. Make sure you have the system
-    -- requirements installed.
     {
-        'nvim-telescope/telescope-fzf-native.nvim',
-        -- NOTE: If you are having trouble with this installation,
-        --       refer to the README for telescope-fzf-native for more instructions.
-        build = 'make',
-        cond = function()
-            return vim.fn.executable 'make' == 1
-        end,
+        "ibhagwan/fzf-lua",
+        -- optional for icon support
+        dependencies = { "nvim-tree/nvim-web-devicons" },
+        config = function()
+          -- calling `setup` is optional for customization
+          require("fzf-lua").setup({})
+        end
     },
 
     {
