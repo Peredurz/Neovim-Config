@@ -165,9 +165,6 @@ require('lazy').setup({
                     opts = { skip = true },
                 },
             },
-            presets = {
-                lsp_doc_border = true, -- Optional: for adding border to LSP hover docs
-            },
         },
         dependencies = {
             "MunifTanjim/nui.nvim",
@@ -264,6 +261,7 @@ require('lazy').setup({
     },
     -- "gc" to comment visual regions/lines
     { 'numToStr/Comment.nvim',         opts = {} },
+    { 'nvim-treesitter/nvim-treesitter-context'},
     {
         "ibhagwan/fzf-lua",
         -- optional for icon support
@@ -273,7 +271,15 @@ require('lazy').setup({
           require("fzf-lua").setup({})
         end
     },
-
+    {
+        'MeanderingProgrammer/render-markdown.nvim',
+        dependencies = { 'nvim-treesitter/nvim-treesitter', 'echasnovski/mini.nvim' }, -- if you use the mini.nvim suite
+        -- dependencies = { 'nvim-treesitter/nvim-treesitter', 'echasnovski/mini.icons' }, -- if you use standalone mini plugins
+        -- dependencies = { 'nvim-treesitter/nvim-treesitter', 'nvim-tree/nvim-web-devicons' }, -- if you prefer nvim-web-devicons
+        ---@module 'render-markdown'
+        ---@type render.md.UserConfig
+        opts = {},
+    },
     {
         -- Highlight, edit, and navigate code
         'nvim-treesitter/nvim-treesitter',
