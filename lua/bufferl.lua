@@ -6,7 +6,7 @@ require("bufferline").setup {
         show_buffer_close_icons = true,
         show_close_icon = false,
         -- Enables highlighting for the active buffer
-        always_show_bufferline = true,
+        always_show_bufferline = false,
         -- Add buffer numbers to help identify them quickly
         numbers = "ordinal",
         -- Ensure buffer names are unique

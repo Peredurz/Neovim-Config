@@ -73,18 +73,18 @@ require('lazy').setup({
         lazy = false,
         ---@type snacks.Config
         opts = {
-          -- your configuration comes here
-          -- or leave it empty to use the default settings
-          -- refer to the configuration section below
-          bigfile = { enabled = true },
-          dashboard = { enabled = true },
-          indent = { enabled = true },
-          input = { enabled = true },
-          notifier = { enabled = true },
-          quickfile = { enabled = true },
-          scroll = { enabled = true },
-          statuscolumn = { enabled = true },
-          words = { enabled = true },
+            -- your configuration comes here
+            -- or leave it empty to use the default settings
+            -- refer to the configuration section below
+            bigfile = { enabled = true },
+            dashboard = { enabled = true },
+            indent = { enabled = true },
+            input = { enabled = true },
+            notifier = { enabled = true },
+            quickfile = { enabled = true },
+            scroll = { enabled = true },
+            statuscolumn = { enabled = true },
+            words = { enabled = true },
         },
     },
     {
@@ -129,7 +129,7 @@ require('lazy').setup({
             sources = {
                 default = { 'lsp', 'path', 'snippets', 'buffer' },
                 -- optionally disable cmdline completions
-                -- cmdline = {},
+                cmdline = {},
             },
 
             -- experimental signature help support
@@ -172,7 +172,7 @@ require('lazy').setup({
         },
     },
     -- Useful plugin to show you pending keybinds.
-    { 'folke/which-key.nvim',          opts = {} },
+    { 'folke/which-key.nvim',  opts = {} },
     {
         -- Adds git releated signs to the gutter, as well as utilities for managing changes
         'lewis6991/gitsigns.nvim',
@@ -249,7 +249,8 @@ require('lazy').setup({
                 },
             },
 
-        }
+        },
+        event = "VimEnter", -- Delay until Neovim is fully initialized
     },
     {
         -- Add indentation guides even on blank lines
@@ -260,15 +261,18 @@ require('lazy').setup({
         opts = { indent = { char = "┊" } },
     },
     -- "gc" to comment visual regions/lines
-    { 'numToStr/Comment.nvim',         opts = {} },
-    { 'nvim-treesitter/nvim-treesitter-context'},
+    { 'numToStr/Comment.nvim', opts = {} },
+    {
+        'nvim-treesitter/nvim-treesitter-context',
+        cmd = 'NvimTreeToggle',
+    },
     {
         "ibhagwan/fzf-lua",
         -- optional for icon support
         dependencies = { "nvim-tree/nvim-web-devicons" },
         config = function()
-          -- calling `setup` is optional for customization
-          require("fzf-lua").setup({})
+            -- calling `setup` is optional for customization
+            require("fzf-lua").setup({})
         end
     },
     {
@@ -289,6 +293,27 @@ require('lazy').setup({
         build = ':TSUpdate',
     },
     { 'akinsho/bufferline.nvim', version = "*", dependencies = 'nvim-tree/nvim-web-devicons' },
+    {
+        "ThePrimeagen/harpoon",
+        branch = "harpoon2",
+        dependencies = { "nvim-lua/plenary.nvim" },
+    },
+    {
+        "linux-cultist/venv-selector.nvim",
+        dependencies = {
+            "neovim/nvim-lspconfig",
+            "mfussenegger/nvim-dap", "mfussenegger/nvim-dap-python", --optional
+            { "nvim-telescope/telescope.nvim", branch = "0.1.x", dependencies = { "nvim-lua/plenary.nvim" } },
+        },
+        lazy = false,
+        branch = "regexp", -- This is the regexp branch, use this for the new version
+        config = function()
+            require("venv-selector").setup()
+        end,
+        keys = {
+            { ",v", "<cmd>VenvSelect<cr>" },
+        },
+    },
     --       These are some example plugins that I've included in the kickstart repository.
     --       Uncomment any of the lines below to enable them.
     -- require 'kickstart.plugins.autoformat',

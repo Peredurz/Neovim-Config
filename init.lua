@@ -45,7 +45,8 @@ vim.o.mousemoveevent = true
 
 require('plugin')
 require('keymap')
- require('telescoop')
+require('telescoop')
+require('hpoon')
 require('lsp')
 require('diagnostic')
 require('null_ls')
@@ -83,3 +84,4 @@ if is_latex_project() then
 else
   require('nvim-tree').setup {}
 end
+vim.g.python3_host_prog = '~/.config/nvim/venv/bin/python3'
