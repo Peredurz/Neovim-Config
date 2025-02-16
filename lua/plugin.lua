@@ -314,6 +314,15 @@ require('lazy').setup({
             { ",v", "<cmd>VenvSelect<cr>" },
         },
     },
+    {
+        'nvim-flutter/flutter-tools.nvim',
+        lazy = false,
+        dependencies = {
+            'nvim-lua/plenary.nvim',
+            'stevearc/dressing.nvim', -- optional for vim.ui.select
+        },
+        config=true,
+    },
     --       These are some example plugins that I've included in the kickstart repository.
     --       Uncomment any of the lines below to enable them.
     -- require 'kickstart.plugins.autoformat',
@@ -325,5 +334,5 @@ require('lazy').setup({
     --    Uncomment the following line and add your plugins to `lua/custom/plugins/*.lua` to get going.
     --
     --    For additional information see: https://github.com/folke/lazy.nvim#-structuring-your-plugins
-    -- { import = 'custom.plugins' },
+    --{ import = 'flutter' },
 }, {})
