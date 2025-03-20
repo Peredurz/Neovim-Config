@@ -129,7 +129,6 @@ require('lazy').setup({
             sources = {
                 default = { 'lsp', 'path', 'snippets', 'buffer' },
                 -- optionally disable cmdline completions
-                cmdline = {},
             },
 
             -- experimental signature help support
