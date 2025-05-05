@@ -30,7 +30,7 @@ require('lazy').setup({
     'tpope/vim-rhubarb',
     'L3MON4D3/LuaSnip',
     'ThePrimeagen/vim-be-good',
-    'jose-elias-alvarez/null-ls.nvim',
+    'nvimtools/none-ls.nvim',
     -- Nvim-tree
     'nvim-tree/nvim-tree.lua',
     -- Copilot
