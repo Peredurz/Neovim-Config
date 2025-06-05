@@ -10,7 +10,6 @@ null_ls.setup({
   sources = {
     null_ls.builtins.formatting.prettier.with({ extra_args = { "--no-semi", "--single-quote", "--jsx-single-quote" } }),
     null_ls.builtins.formatting.black.with({ extra_args = { "--fast" } }),
-    null_ls.builtins.formatting.rustfmt,
     null_ls.builtins.formatting.csharpier,
     null_ls.builtins.formatting.dart_format,
     -- diagnostics.flake8
