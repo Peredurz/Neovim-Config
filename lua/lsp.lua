@@ -88,16 +88,16 @@ local capabilities = vim.lsp.protocol.make_client_capabilities()
 
 -- Ensure the servers above are installed
 local mason_lspconfig = require 'mason-lspconfig'
-local lspconfig = require("lspconfig")
+--local lspconfig = vim.lsp.enable(mason_lspconfig)
 
 mason_lspconfig.setup {
   ensure_installed = vim.tbl_keys(servers),
   automatic_installation = false,
 }
 
-for server_name, config in pairs(servers) do
-  lspconfig[server_name].setup(config)
-end
+--for server_name, config in pairs(servers) do
+--  lspconfig[server_name].setup(config)
+--end
 --mason_lspconfig.setup_handlers {
 --  function(server_name)
 --    local config = servers[server_name] or {}
