@@ -55,7 +55,6 @@ require('nvim-boom')
 require('file-icons')
 require('treesitter')
 require('bufferl')
-require('flutter-settings')
 -- [[ Setting options ]]
 -- See `:help vim.o`
 -- NOTE: You can change these options as you wish!

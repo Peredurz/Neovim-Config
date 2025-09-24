@@ -98,7 +98,7 @@ require('lazy').setup({
         dependencies = 'rafamadriz/friendly-snippets',
 
         -- use a release tag to download pre-built binaries
-        version = 'v0.*',
+        version = 'v1.*',
         -- AND/OR build from source, requires nightly: https://rust-lang.github.io/rustup/concepts/channels.html#working-with-nightly-rust
         -- build = 'cargo build --release',
         -- If you use nix, you can build from source using latest nightly rust with:
@@ -127,8 +127,13 @@ require('lazy').setup({
             -- default list of enabled providers defined so that you can extend it
             -- elsewhere in your config, without redefining it, via `opts_extend`
             sources = {
-                default = { 'lsp', 'path', 'snippets', 'buffer' },
-                -- optionally disable cmdline completions
+                default = { 'lsp', 'snippets', 'path', 'buffer' },
+                providers = {
+                    lsp = { priority = 1000 },
+                    snippets = { priority = 900 },
+                    path = { priority = 700 },
+                    buffer = { priority = 400 },
+                },
             },
 
             -- experimental signature help support
@@ -320,7 +325,7 @@ require('lazy').setup({
             'nvim-lua/plenary.nvim',
             'stevearc/dressing.nvim', -- optional for vim.ui.select
         },
-        config=true,
+        config = true,
     },
     --       These are some example plugins that I've included in the kickstart repository.
     --       Uncomment any of the lines below to enable them.

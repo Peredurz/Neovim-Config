@@ -57,22 +57,10 @@ local servers = {
   -- rust_analyzer = {},
   -- tsserver = {},
   lua_ls = {
-    settings = {
-      Lua = {
-        workspace = { checkThirdParty = false },
-        telemetry = { enable = false },
-      },
+    Lua = {
+      workspace = { checkThirdParty = false },
+      telemetry = { enable = false },
     },
-  },
-  ltex = {  -- Add ltex configuration
-    settings = {
-      ltex = {
-        language = "nl-NL",  -- Set language to Dutch
-        diagnosticSeverity = "information",
-        markDown = true,
-        configurationPath = vim.fn.getcwd() .. "/.ltex.config.yaml",
-      }
-    }
   },
 }
 
@@ -88,20 +76,18 @@ local capabilities = vim.lsp.protocol.make_client_capabilities()
 
 -- Ensure the servers above are installed
 local mason_lspconfig = require 'mason-lspconfig'
---local lspconfig = vim.lsp.enable(mason_lspconfig)
 
 mason_lspconfig.setup {
   ensure_installed = vim.tbl_keys(servers),
-  automatic_installation = false,
 }
 
---for server_name, config in pairs(servers) do
---  lspconfig[server_name].setup(config)
---end
---mason_lspconfig.setup_handlers {
---  function(server_name)
---    local config = servers[server_name] or {}
---    config.capabilities = capabilities -- if using cmp_nvim_lsp
---    lspconfig[server_name].setup(config)
---  end,
---}
+-- Setup LSP servers
+for server_name, server_opts in pairs(servers) do
+  vim.lsp.config(server_name, {
+    capabilities = capabilities,
+    on_attach = on_attach,
+    settings = server_opts,
+  })
+
+  vim.lsp.enable(server_name)
+end
