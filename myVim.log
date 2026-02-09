@@ -1,0 +1,3450 @@
+
+sourcing "nvim_exec2()"
+finished sourcing nvim_exec2()
+sourcing "/opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/ftplugin.vim"
+finished sourcing /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/ftplugin.vim
+sourcing "/opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/indent.vim"
+finished sourcing /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/indent.vim
+could not source "/opt/homebrew/etc/xdg/nvim/sysinit.vim"
+could not source "/etc/xdg/nvim/sysinit.vim"
+could not source "$VIM/sysinit.vim"
+sourcing "/Users/douwe/.config/nvim/init.lua"
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+line 1: sourcing "/opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/filetype.lua"
+line 0: sourcing "nvim_exec2() called at /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/filetype.lua:0"
+not found in runtime path: "ftdetect/*.{vim,lua}"
+finished sourcing nvim_exec2() called at /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/filetype.lua:0
+continuing in /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/filetype.lua
+finished sourcing /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/filetype.lua
+continuing in nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+line 1: sourcing "/Users/douwe/.local/share/nvim/lazy/snacks.nvim/plugin/snacks.lua"
+finished sourcing /Users/douwe/.local/share/nvim/lazy/snacks.nvim/plugin/snacks.lua
+continuing in nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+Executing ColorSchemePre Autocommands for "*"
+autocommand <Lua 76: ~/.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/loader.lua:31>
+
+line 0: sourcing "/Users/douwe/.local/share/nvim/lazy/tokyonight.nvim/colors/tokyonight-storm.lua"
+finished sourcing /Users/douwe/.local/share/nvim/lazy/tokyonight.nvim/colors/tokyonight-storm.lua
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+line 1: sourcing "/Users/douwe/.local/share/nvim/lazy/plenary.nvim/plugin/plenary.vim"
+finished sourcing /Users/douwe/.local/share/nvim/lazy/plenary.nvim/plugin/plenary.vim
+continuing in nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+line 1: sourcing "/Users/douwe/.local/share/nvim/lazy/dressing.nvim/plugin/dressing.lua"
+finished sourcing /Users/douwe/.local/share/nvim/lazy/dressing.nvim/plugin/dressing.lua
+continuing in nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+line 1: sourcing "/Users/douwe/.local/share/nvim/lazy/gitsigns.nvim/plugin/gitsigns.lua"
+finished sourcing /Users/douwe/.local/share/nvim/lazy/gitsigns.nvim/plugin/gitsigns.lua
+continuing in nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+line 1: sourcing "/Users/douwe/.local/share/nvim/lazy/nvim-web-devicons/plugin/nvim-web-devicons.vim"
+finished sourcing /Users/douwe/.local/share/nvim/lazy/nvim-web-devicons/plugin/nvim-web-devicons.vim
+continuing in nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+line 1: sourcing "/Users/douwe/.local/share/nvim/lazy/fzf-lua/plugin/fzf-lua.lua"
+finished sourcing /Users/douwe/.local/share/nvim/lazy/fzf-lua/plugin/fzf-lua.lua
+continuing in nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+line 1: sourcing "/Users/douwe/.local/share/nvim/lazy/fzf-lua/autoload/fzf_lua.vim"
+finished sourcing /Users/douwe/.local/share/nvim/lazy/fzf-lua/autoload/fzf_lua.vim
+continuing in nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+line 1: sourcing "/Users/douwe/.local/share/nvim/lazy/Comment.nvim/plugin/Comment.lua"
+finished sourcing /Users/douwe/.local/share/nvim/lazy/Comment.nvim/plugin/Comment.lua
+continuing in nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+line 1: sourcing "/Users/douwe/.local/share/nvim/lazy/LuaSnip/plugin/luasnip.lua"
+finished sourcing /Users/douwe/.local/share/nvim/lazy/LuaSnip/plugin/luasnip.lua
+continuing in nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+line 1: sourcing "/Users/douwe/.local/share/nvim/lazy/LuaSnip/plugin/luasnip.vim"
+finished sourcing /Users/douwe/.local/share/nvim/lazy/LuaSnip/plugin/luasnip.vim
+continuing in nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+line 1: sourcing "/Users/douwe/.local/share/nvim/lazy/vim-be-good/plugin/vim-be-good.vim"
+finished sourcing /Users/douwe/.local/share/nvim/lazy/vim-be-good/plugin/vim-be-good.vim
+continuing in nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+line 1: sourcing "/Users/douwe/.local/share/nvim/lazy/vim-rhubarb/plugin/rhubarb.vim"
+finished sourcing /Users/douwe/.local/share/nvim/lazy/vim-rhubarb/plugin/rhubarb.vim
+continuing in nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+line 1: sourcing "/Users/douwe/.local/share/nvim/lazy/which-key.nvim/plugin/which-key.lua"
+finished sourcing /Users/douwe/.local/share/nvim/lazy/which-key.nvim/plugin/which-key.lua
+continuing in nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+line 1: sourcing "/Users/douwe/.local/share/nvim/lazy/vim-sleuth/plugin/sleuth.vim"
+finished sourcing /Users/douwe/.local/share/nvim/lazy/vim-sleuth/plugin/sleuth.vim
+continuing in nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+line 1: sourcing "/Users/douwe/.local/share/nvim/lazy/nvim-treesitter-textobjects/plugin/nvim-treesitter-textobjects.vim"
+finished sourcing /Users/douwe/.local/share/nvim/lazy/nvim-treesitter-textobjects/plugin/nvim-treesitter-textobjects.vim
+continuing in nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+line 1: sourcing "/Users/douwe/.local/share/nvim/lazy/nvim-treesitter/plugin/nvim-treesitter.lua"
+finished sourcing /Users/douwe/.local/share/nvim/lazy/nvim-treesitter/plugin/nvim-treesitter.lua
+continuing in nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+line 1: sourcing "/Users/douwe/.local/share/nvim/lazy/render-markdown.nvim/plugin/render-markdown.lua"
+finished sourcing /Users/douwe/.local/share/nvim/lazy/render-markdown.nvim/plugin/render-markdown.lua
+continuing in nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+line 1: sourcing "/Users/douwe/.local/share/nvim/lazy/omnisharp-vim/plugin/OmniSharp.vim"
+finished sourcing /Users/douwe/.local/share/nvim/lazy/omnisharp-vim/plugin/OmniSharp.vim
+continuing in nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+line 1: sourcing "/Users/douwe/.local/share/nvim/lazy/omnisharp-vim/ftdetect/cake.vim"
+finished sourcing /Users/douwe/.local/share/nvim/lazy/omnisharp-vim/ftdetect/cake.vim
+continuing in nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+line 1: sourcing "/Users/douwe/.local/share/nvim/lazy/omnisharp-vim/ftdetect/csx.vim"
+finished sourcing /Users/douwe/.local/share/nvim/lazy/omnisharp-vim/ftdetect/csx.vim
+continuing in nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+line 1: sourcing "/Users/douwe/.local/share/nvim/lazy/omnisharp-vim/ftdetect/omnisharplog.vim"
+finished sourcing /Users/douwe/.local/share/nvim/lazy/omnisharp-vim/ftdetect/omnisharplog.vim
+continuing in nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+line 1: sourcing "/Users/douwe/.local/share/nvim/lazy/nerdcommenter/plugin/nerdcommenter.vim"
+finished sourcing /Users/douwe/.local/share/nvim/lazy/nerdcommenter/plugin/nerdcommenter.vim
+continuing in nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+line 1: sourcing "/Users/douwe/.local/share/nvim/lazy/blink.cmp/plugin/blink-cmp.lua"
+finished sourcing /Users/douwe/.local/share/nvim/lazy/blink.cmp/plugin/blink-cmp.lua
+continuing in nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+line 1: sourcing "/Users/douwe/.local/share/nvim/lazy/nvim-lspconfig/plugin/lspconfig.lua"
+finished sourcing /Users/douwe/.local/share/nvim/lazy/nvim-lspconfig/plugin/lspconfig.lua
+continuing in nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+line 1: sourcing "/Users/douwe/.local/share/nvim/lazy/vim-fugitive/plugin/fugitive.vim"
+finished sourcing /Users/douwe/.local/share/nvim/lazy/vim-fugitive/plugin/fugitive.vim
+continuing in nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+line 1: sourcing "/Users/douwe/.local/share/nvim/lazy/vim-fugitive/ftdetect/fugitive.vim"
+finished sourcing /Users/douwe/.local/share/nvim/lazy/vim-fugitive/ftdetect/fugitive.vim
+continuing in nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+line 1: sourcing "/opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/editorconfig.lua"
+finished sourcing /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/editorconfig.lua
+continuing in nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+line 1: sourcing "/opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/gzip.vim"
+finished sourcing /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/gzip.vim
+continuing in nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+line 1: sourcing "/opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/man.lua"
+finished sourcing /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/man.lua
+continuing in nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+line 1: sourcing "/opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/matchit.vim"
+not found in 'packpath': "pack/*/start/matchit"
+line 3: sourcing "/opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim"
+finished sourcing /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim
+continuing in /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/matchit.vim
+finished sourcing /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/matchit.vim
+continuing in nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+line 1: sourcing "/opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/matchparen.vim"
+finished sourcing /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/matchparen.vim
+continuing in nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+line 1: sourcing "/opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/netrwPlugin.vim"
+not found in 'packpath': "pack/*/start/netrw"
+line 7: sourcing "/opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/pack/dist/opt/netrw/plugin/netrwPlugin.vim"
+finished sourcing /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/pack/dist/opt/netrw/plugin/netrwPlugin.vim
+continuing in /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/netrwPlugin.vim
+finished sourcing /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/netrwPlugin.vim
+continuing in nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+line 1: sourcing "/opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/osc52.lua"
+finished sourcing /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/osc52.lua
+continuing in nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+line 1: sourcing "/opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/rplugin.vim"
+finished sourcing /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/rplugin.vim
+continuing in nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+line 1: sourcing "/opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/shada.vim"
+finished sourcing /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/shada.vim
+continuing in nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+line 1: sourcing "/opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/spellfile.vim"
+finished sourcing /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/spellfile.vim
+continuing in nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+line 1: sourcing "/opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/tarPlugin.vim"
+finished sourcing /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/tarPlugin.vim
+continuing in nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+line 1: sourcing "/opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/tohtml.lua"
+finished sourcing /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/tohtml.lua
+continuing in nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+line 1: sourcing "/opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/tutor.vim"
+finished sourcing /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/tutor.vim
+continuing in nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+line 1: sourcing "/opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/zipPlugin.vim"
+finished sourcing /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/zipPlugin.vim
+continuing in nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+line 1: sourcing "/Users/douwe/.local/share/nvim/lazy/indent-blankline.nvim/after/plugin/commands.lua"
+finished sourcing /Users/douwe/.local/share/nvim/lazy/indent-blankline.nvim/after/plugin/commands.lua
+continuing in nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+Executing User Autocommands for "LazyDone"
+autocommand <Lua 75: ~/.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/util.lua:183>
+
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+line 0: sourcing "nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0"
+finished sourcing nvim_exec2() called at /Users/douwe/.config/nvim/init.lua:0
+continuing in /Users/douwe/.config/nvim/init.lua
+finished sourcing /Users/douwe/.config/nvim/init.lua
+sourcing "/opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/filetype.lua"
+finished sourcing /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/filetype.lua
+sourcing "/opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/syntax/syntax.vim"
+line 20: sourcing "/opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/syntax/synload.vim"
+finished sourcing /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/syntax/synload.vim
+continuing in /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/syntax/syntax.vim
+Executing FileType Autocommands for "*"
+autocommand if !exists('b:ts_highlight') | 0verbose exe "set syntax=" . expand("<amatch>") | endif
+
+finished sourcing /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/syntax/syntax.vim
+Reading ShaDa file "/Users/douwe/.local/state/nvim/shada/main.shada" info marks oldfiles
+Executing BufReadPre Autocommands for "*"
+autocommand <Lua 109: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/init.lua:187>
+
+Reading ShaDa file "/Users/douwe/.local/state/nvim/shada/main.shada" marks
+Reading undo file: /Users/douwe/.local/state/nvim/undo/%Users%douwe%Documents%Taiwan%Web Layout design and programming%a.html
+Executing BufReadPost Autocommands for "*"
+autocommand <Lua 96: /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/filetype.lua:10>
+
+Executing FileType Autocommands for "*"
+autocommand call s:LoadFTPlugin()
+
+line 20: sourcing "/opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/ftplugin/html.vim"
+line 29: sourcing "/opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/autoload/htmlcomplete.vim"
+finished sourcing /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/autoload/htmlcomplete.vim
+continuing in /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/ftplugin/html.vim
+finished sourcing /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/ftplugin/html.vim
+continuing in <SNR>2_LoadFTPlugin
+Executing FileType Autocommands for "*"
+autocommand call s:LoadIndent()
+
+line 15: sourcing "/opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/indent/html.vim"
+line 32: sourcing "/opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/indent/javascript.vim"
+finished sourcing /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/indent/javascript.vim
+continuing in /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/indent/html.vim
+finished sourcing /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/indent/html.vim
+continuing in <SNR>3_LoadIndent
+Executing FileType Autocommands for "*"
+autocommand <Lua 140: ~/.local/share/nvim/lazy/indent-blankline.nvim/lua/ibl/autocmds.lua:26>
+
+not found in runtime path: "parser/html.*"
+Executing FileType Autocommands for "*"
+autocommand <Lua 193: ~/.local/share/nvim/lazy/LuaSnip/plugin/luasnip.lua:77>
+
+Executing FileType Autocommands for "*"
+autocommand if exists('b:sleuth') | exe s:Init(0, 0, 0, 1) | endif
+
+Executing FileType Autocommands for "*"
+autocommand <Lua 206: ~/.local/share/nvim/lazy/render-markdown.nvim/lua/render-markdown/core/manager.lua:39>
+
+Executing FileType Autocommands for "*"
+autocommand <Lua 160: /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/lua/vim/lsp.lua:613>
+
+Executing FileType Autocommands for "*"
+autocommand <Lua 220: ~/.local/share/nvim/lazy/none-ls.nvim/lua/null-ls/init.lua:42>
+
+Executing FileType Autocommands for "*"
+autocommand <Lua 350: ~/.local/share/nvim/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:132>
+
+not found in runtime path: "parser/html.*"
+Executing FileType Autocommands for "*"
+autocommand <Lua 351: ~/.local/share/nvim/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:132>
+
+Executing FileType Autocommands for "*"
+autocommand if !exists('b:ts_highlight') | 0verbose exe "set syntax=" . expand("<amatch>") | endif
+
+autocommand if !did_filetype() && expand('<amatch>') !~ g:ft_ignore_pat | runtime! scripts.vim | endif
+
+Executing BufReadPost Autocommands for "*"
+autocommand <Lua 110: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/init.lua:187>
+
+not found in runtime path: "parser/html.*"
+Executing Syntax Autocommands for "*"
+autocommand call s:SynSet()
+
+line 26: sourcing "/opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/syntax/html.vim"
+line 24: sourcing "/opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/syntax/xml.vim"
+line 301: sourcing "/opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/syntax/dtd.vim"
+finished sourcing /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/syntax/dtd.vim
+continuing in /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/syntax/xml.vim
+finished sourcing /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/syntax/xml.vim
+continuing in /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/syntax/html.vim
+line 274: sourcing "/opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/syntax/javascript.vim"
+finished sourcing /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/syntax/javascript.vim
+continuing in /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/syntax/html.vim
+line 299: sourcing "/opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/syntax/vb.vim"
+finished sourcing /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/syntax/vb.vim
+continuing in /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/syntax/html.vim
+line 309: sourcing "/opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/syntax/css.vim"
+finished sourcing /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/syntax/css.vim
+continuing in /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/syntax/html.vim
+finished sourcing /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/syntax/html.vim
+continuing in <SNR>103_SynSet
+line 0: sourcing "nvim_exec2() called at BufReadPost Autocommands for "*":0"
+finished sourcing nvim_exec2() called at BufReadPost Autocommands for "*":0
+continuing in BufReadPost Autocommands for "*"
+not found in runtime path: "parser/html.*"
+Executing BufReadPost Autocommands for "*"
+autocommand <Lua 116: ~/.local/share/nvim/lazy/gitsigns.nvim/lua/gitsigns.lua:170>
+
+Executing BufReadPost Autocommands for "*"
+autocommand if get(g:, 'sleuth_automatic', 1) | exe s:AutoInit() | endif
+
+Executing BufReadPost Autocommands for "*"
+autocommand if exists('b:git_dir') && b:git_dir =~# '^$\|' . s:bad_git_dir |   unlet b:git_dir | endif
+
+Executing BufReadPost Autocommands for "*"
+autocommand <Lua 296: /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/editorconfig.lua:4>
+
+Executing BufReadPost Autocommands for "*"
+autocommand <Lua 346: ~/.local/share/nvim/lazy/bufferline.nvim/lua/bufferline.lua:136>
+
+Executing BufWinEnter Autocommands for "*"
+autocommand <Lua 135: ~/.local/share/nvim/lazy/indent-blankline.nvim/lua/ibl/autocmds.lua:26>
+
+Executing BufWinEnter Autocommands for "*"
+autocommand <Lua 192: ~/.local/share/nvim/lazy/LuaSnip/plugin/luasnip.lua:77>
+
+Executing BufWinEnter Autocommands for "*"
+autocommand autocmd SafeState * ++once call s:Highlight_Matching_Pair()
+
+Executing BufEnter Autocommands for "*"
+autocommand <Lua 107: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/init.lua:187>
+
+Executing BufEnter Autocommands for "*"
+autocommand if expand('%') ==# '' && &previewwindow && pumvisible() && getbufvar('#', '&omnifunc') ==# 'rhubarb#omnifunc' |    setlocal nolist linebreak filetype=markdown | endif
+
+Executing BufEnter Autocommands for "*"
+autocommand <Lua 347: ~/.local/share/nvim/lazy/bufferline.nvim/lua/bufferline.lua:141>
+
+Executing BufEnter Autocommands for "*"
+autocommand <Lua 236: ~/.local/share/nvim/lazy/nvim-tree.lua/lua/nvim-tree.lua:101>
+
+Executing BufEnter Autocommands for "*"
+autocommand <Lua 391: ~/.local/share/nvim/lazy/gitsigns.nvim/lua/gitsigns/manager.lua:505>
+
+Executing VimEnter Autocommands for "*"
+autocommand <Lua 70: vim/_defaults.lua:0>
+
+autocommand <Lua 71: vim/_defaults.lua:0>
+
+Executing VimEnter Autocommands for "*"
+autocommand <Lua 93: ~/.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/handler/event.lua:72>
+
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+--- Autocommands ---
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+--- Autocommands ---
+lualine  BufEnter
+    *         lua require'lualine.components.branch.git_branch'.find_git_dir()
+	Last set from ~/.local/share/nvim/lazy/lualine.nvim/lua/lualine/utils/utils.lua line 98
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+--- Autocommands ---
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+--- Autocommands ---
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at VimEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at VimEnter Autocommands for "*":0
+continuing in VimEnter Autocommands for "*"
+Executing VimEnter Autocommands for "*"
+autocommand <Lua 102: ~/.local/share/nvim/lazy/indent-blankline.nvim/lua/ibl/init.lua:98>
+
+not found in runtime path: "parser/html.*"
+Executing VimEnter Autocommands for "*"
+autocommand <Lua 208: vim/_editor.lua:0>
+
+autocommand silent! autocmd! FileExplorer *
+
+autocommand silent! autocmd! FileExplorer *
+
+Executing UIEnter Autocommands for "*"
+autocommand <Lua 73: ~/.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/config.lua:327>
+
+Executing UIEnter Autocommands for "*"
+autocommand <Lua 108: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/init.lua:187>
+
+Executing UIEnter Autocommands for "*"
+autocommand <Lua 235: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/lib/utils.lua:222>
+
+ blink.cmp   sources  →  providers  →  path  →  priority  Unexpected field in configuration!
+ blink.cmp   sources  →  providers  →  lsp  →  priority  Unexpected field in configuration!
+ blink.cmp   sources  →  providers  →  buffer  →  priority  Unexpected field in configuration!
+ blink.cmp   sources  →  providers  →  snippets  →  priority  Unexpected field in configuration!
+Executing UIEnter Autocommands for "*"
+autocommand <Lua 299: /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/osc52.lua:8>
+
+Executing UIEnter Autocommands for "*"
+autocommand <Lua 306: ~/.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/util.lua:189>
+
+sourcing "/opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/autoload/provider/clipboard.vim"
+finished sourcing /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/autoload/provider/clipboard.vim
+Executing SafeState Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing TermResponse Autocommands for "*"
+autocommand <Lua 69: vim/_defaults.lua:0>
+
+Executing OptionSet Autocommands for "background"
+autocommand <Lua 227: ~/.local/share/nvim/lazy/nvim-web-devicons/lua/nvim-web-devicons.lua:469>
+
+Executing OptionSet Autocommands for "background"
+autocommand lua require'lualine'.setup()
+
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+--- Autocommands ---
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+--- Autocommands ---
+lualine  BufEnter
+    *         lua require'lualine.components.branch.git_branch'.find_git_dir()
+	Last set from ~/.local/share/nvim/lazy/lualine.nvim/lua/lualine/utils/utils.lua line 98
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+--- Autocommands ---
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+--- Autocommands ---
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+line 0: sourcing "nvim_exec2() called at OptionSet Autocommands for "background":0"
+finished sourcing nvim_exec2() called at OptionSet Autocommands for "background":0
+continuing in OptionSet Autocommands for "background"
+Executing TermResponse Autocommands for "*"
+autocommand <Lua 419: /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/lua/vim/termcap.lua:36>
+
+Executing FileType Autocommands for "*"
+autocommand call s:LoadFTPlugin()
+
+not found in runtime path: "ftplugin/snacks_notif[.]{vim,lua} ftplugin/snacks_notif_*.{vim,lua} ftplugin/snacks_notif/*.{vim,lua}"
+Executing FileType Autocommands for "*"
+autocommand call s:LoadIndent()
+
+not found in runtime path: "indent/snacks_notif[.]{vim,lua}"
+Executing FileType Autocommands for "*"
+autocommand <Lua 140: ~/.local/share/nvim/lazy/indent-blankline.nvim/lua/ibl/autocmds.lua:26>
+
+Executing FileType Autocommands for "*"
+autocommand <Lua 193: ~/.local/share/nvim/lazy/LuaSnip/plugin/luasnip.lua:77>
+
+Executing FileType Autocommands for "*"
+autocommand if exists('b:sleuth') | exe s:Init(0, 0, 0, 1) | endif
+
+Executing FileType Autocommands for "*"
+autocommand <Lua 206: ~/.local/share/nvim/lazy/render-markdown.nvim/lua/render-markdown/core/manager.lua:39>
+
+Executing FileType Autocommands for "*"
+autocommand <Lua 160: /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/lua/vim/lsp.lua:613>
+
+Executing FileType Autocommands for "*"
+autocommand <Lua 220: ~/.local/share/nvim/lazy/none-ls.nvim/lua/null-ls/init.lua:42>
+
+Executing FileType Autocommands for "*"
+autocommand <Lua 350: ~/.local/share/nvim/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:132>
+
+not found in runtime path: "parser/snacks_notif.*"
+Executing FileType Autocommands for "*"
+autocommand <Lua 351: ~/.local/share/nvim/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:132>
+
+Executing FileType Autocommands for "*"
+autocommand if !exists('b:ts_highlight') | 0verbose exe "set syntax=" . expand("<amatch>") | endif
+
+Executing FileType Autocommands for "*"
+autocommand call v:lua.require'lualine'.refresh({'kind': 'tabpage', 'place': ['statusline'], 'trigger': 'autocmd'})
+
+Executing OptionSet Autocommands for "list"
+autocommand <Lua 143: ~/.local/share/nvim/lazy/indent-blankline.nvim/lua/ibl/autocmds.lua:33>
+
+Executing OptionSet Autocommands for "listchars"
+autocommand <Lua 144: ~/.local/share/nvim/lazy/indent-blankline.nvim/lua/ibl/autocmds.lua:33>
+
+Executing Syntax Autocommands for "*"
+autocommand call s:SynSet()
+
+Executing LspAttach Autocommands for "*"
+autocommand <Lua 106: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/init.lua:187>
+
+Executing LspAttach Autocommands for "*"
+autocommand <Lua 224: ~/.config/nvim/lua/null_ls.lua:33>
+
+Executing User Autocommands for "VeryLazy"
+autocommand <Lua 74: ~/.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/config.lua:338>
+
+Executing User Autocommands for "VeryLazy"
+autocommand <Lua 79: ~/.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/handler/event.lua:72>
+
+line 0: sourcing "nvim_exec2() called at User Autocommands for "VeryLazy":0"
+finished sourcing nvim_exec2() called at User Autocommands for "VeryLazy":0
+continuing in User Autocommands for "VeryLazy"
+line 0: sourcing "nvim_exec2() called at User Autocommands for "VeryLazy":0"
+finished sourcing nvim_exec2() called at User Autocommands for "VeryLazy":0
+continuing in User Autocommands for "VeryLazy"
+line 0: sourcing "nvim_exec2() called at User Autocommands for "VeryLazy":0"
+finished sourcing nvim_exec2() called at User Autocommands for "VeryLazy":0
+continuing in User Autocommands for "VeryLazy"
+line 0: sourcing "nvim_exec2() called at User Autocommands for "VeryLazy":0"
+finished sourcing nvim_exec2() called at User Autocommands for "VeryLazy":0
+continuing in User Autocommands for "VeryLazy"
+line 0: sourcing "nvim_exec2() called at User Autocommands for "VeryLazy":0"
+finished sourcing nvim_exec2() called at User Autocommands for "VeryLazy":0
+continuing in User Autocommands for "VeryLazy"
+line 0: sourcing "nvim_exec2() called at User Autocommands for "VeryLazy":0"
+finished sourcing nvim_exec2() called at User Autocommands for "VeryLazy":0
+continuing in User Autocommands for "VeryLazy"
+sourcing "nvim_exec2()"
+finished sourcing nvim_exec2()
+sourcing "nvim_exec2()"
+finished sourcing nvim_exec2()
+sourcing "nvim_exec2()"
+finished sourcing nvim_exec2()
+sourcing "nvim_exec2()"
+finished sourcing nvim_exec2()
+sourcing "nvim_exec2()"
+finished sourcing nvim_exec2()
+sourcing "nvim_exec2()"
+finished sourcing nvim_exec2()
+sourcing "nvim_exec2()"
+finished sourcing nvim_exec2()
+
+
+--- Terminal info --- {{{
+&term: screen-256color
+Description: GNU Screen with 256 colors
+Aliases: screen-256color
+Boolean capabilities:
+  auto_left_margin          bw         = false
+  auto_right_margin         am         = true
+  no_esc_ctlc               xsb        = false
+  ceol_standout_glitch      xhp        = false
+  eat_newline_glitch        xenl       = true
+  erase_overstrike          eo         = false
+  generic_type              gn         = false
+  hard_copy                 hc         = false
+  has_meta_key              km         = true
+  has_status_line           hs         = false
+  insert_null_glitch        in         = false
+  memory_above              da         = false
+  memory_below              db         = false
+  move_insert_mode          mir        = true
+  move_standout_mode        msgr       = true
+  over_strike               os         = false
+  status_line_esc_ok        eslok      = false
+  dest_tabs_magic_smso      xt         = false
+  tilde_glitch              hz         = false
+  transparent_underline     ul         = false
+  xon_xoff                  xon        = false
+  needs_xon_xoff            nxon       = false
+  prtr_silent               mc5i       = false
+  hard_cursor               chts       = false
+  non_rev_rmcup             nrrmc      = false
+  no_pad_char               npc        = false
+  non_dest_scroll_region    ndscr      = false
+  can_change                ccc        = false
+  back_color_erase          bce        = false
+  hue_lightness_saturation  hls        = false
+  col_addr_glitch           xhpa       = false
+  cr_cancels_micro_mode     crxm       = false
+  has_print_wheel           daisy      = false
+  row_addr_glitch           xvpa       = false
+  semi_auto_right_margin    sam        = false
+  cpi_changes_res           cpix       = false
+  lpi_changes_res           lpix       = false
+  backspaces_with_bs        OTbs       = true
+  crt_no_scrolling          OTns       = false
+  no_correctly_working_cr   OTnc       = false
+  gnu_has_meta_key          OTMT       = false
+  linefeed_is_newline       OTNL       = false
+  has_hardware_tabs         OTpt       = true
+  return_does_clr_eol       OTxr       = false
+Numeric capabilities:
+  columns                   cols       = 80
+  init_tabs                 it         = 8
+  lines                     lines      = 24
+  lines_of_memory           lm         = -1
+  magic_cookie_glitch       xmc        = -1
+  padding_baud_rate         pb         = -1
+  virtual_terminal          vt         = -1
+  width_status_line         wsl        = -1
+  num_labels                nlab       = -1
+  label_height              lh         = -1
+  label_width               lw         = -1
+  max_attributes            ma         = -1
+  maximum_windows           wnum       = -1
+  max_colors                colors     = 256
+  max_pairs                 pairs      = 65536
+  no_color_video            ncv        = -1
+  buffer_capacity           bufsz      = -1
+  dot_vert_spacing          spinv      = -1
+  dot_horz_spacing          spinh      = -1
+  max_micro_address         maddr      = -1
+  max_micro_jump            mjump      = -1
+  micro_col_size            mcs        = -1
+  micro_line_size           mls        = -1
+  number_of_pins            npins      = -1
+  output_res_char           orc        = -1
+  output_res_line           orl        = -1
+  output_res_horz_inch      orhi       = -1
+  output_res_vert_inch      orvi       = -1
+  print_rate                cps        = -1
+  wide_char_size            widcs      = -1
+  buttons                   btns       = -1
+  bit_image_entwining       bitwin     = -1
+  bit_image_type            bitype     = -1
+  magic_cookie_glitch_ul    OTug       = -1
+  carriage_return_delay     OTdC       = -1
+  new_line_delay            OTdN       = -1
+  backspace_delay           OTdB       = -1
+  horizontal_tab_delay      OTdT       = -1
+  number_of_function_keys   OTkn       = -1
+String capabilities:
+  back_tab                  cbt        = ^[[Z
+  bell                      bel        = ^G
+  carriage_return           cr         = ^M
+  change_scroll_region      csr        = ^[[%i%p1%d;%p2%dr
+  clear_all_tabs            tbc        = ^[[3g
+  clear_screen              clear      = ^[[H^[[J
+  clr_eol                   el         = ^[[K
+  clr_eos                   ed         = ^[[J
+  column_address            hpa        = ^[[%i%p1%dG
+  cursor_address            cup        = ^[[%i%p1%d;%p2%dH
+  cursor_down               cud1       = ^@
+  cursor_home               home       = ^[[H
+  cursor_invisible          civis      = ^[[?25l
+  cursor_left               cub1       = ^H
+  cursor_normal             cnorm      = ^[[34h^[[?25h
+  cursor_right              cuf1       = ^[[C
+  cursor_up                 cuu1       = ^[M
+  cursor_visible            cvvis      = ^[[34l
+  delete_character          dch1       = ^[[P
+  delete_line               dl1        = ^[[M
+  enter_alt_charset_mode    smacs      = ^N
+  enter_blink_mode          blink      = ^[[5m
+  enter_bold_mode           bold       = ^[[1m
+  enter_ca_mode             smcup      = ^[[?1049h
+  enter_dim_mode            dim        = ^[[2m
+  enter_insert_mode         smir       = ^[[4h
+  enter_reverse_mode        rev        = ^[[7m
+  enter_standout_mode       smso       = ^[[3m
+  enter_underline_mode      smul       = ^[[4m
+  exit_alt_charset_mode     rmacs      = ^O
+  exit_attribute_mode       sgr0       = ^[[m^O
+  exit_ca_mode              rmcup      = ^[[?1049l
+  exit_insert_mode          rmir       = ^[[4l
+  exit_standout_mode        rmso       = ^[[23m
+  exit_underline_mode       rmul       = ^[[24m
+  flash_screen              flash      = ^[g
+  from_status_line          fsl        = ^[\
+  init_2string              is2        = ^[)0
+  insert_line               il1        = ^[[L
+  key_backspace             kbs        = ^?
+  key_dc                    kdch1      = ^[[3~
+  key_down                  kcud1      = ^[OB
+  key_f1                    kf1        = ^[OP
+  key_f10                   kf10       = ^[[21~
+  key_f2                    kf2        = ^[OQ
+  key_f3                    kf3        = ^[OR
+  key_f4                    kf4        = ^[OS
+  key_f5                    kf5        = ^[[15~
+  key_f6                    kf6        = ^[[17~
+  key_f7                    kf7        = ^[[18~
+  key_f8                    kf8        = ^[[19~
+  key_f9                    kf9        = ^[[20~
+  key_home                  khome      = ^[[1~
+  key_ic                    kich1      = ^[[2~
+  key_left                  kcub1      = ^[OD
+  key_npage                 knp        = ^[[6~
+  key_ppage                 kpp        = ^[[5~
+  key_right                 kcuf1      = ^[OC
+  key_up                    kcuu1      = ^[OA
+  keypad_local              rmkx       = ^[[?1l^[>
+  keypad_xmit               smkx       = ^[[?1h^[=
+  newline                   nel        = ^[E
+  parm_dch                  dch        = ^[[%p1%dP
+  parm_delete_line          dl         = ^[[%p1%dM
+  parm_down_cursor          cud        = ^[[%p1%dB
+  parm_ich                  ich        = ^[[%p1%d@
+  parm_index                indn       = ^[[%p1%dS
+  parm_insert_line          il         = ^[[%p1%dL
+  parm_left_cursor          cub        = ^[[%p1%dD
+  parm_right_cursor         cuf        = ^[[%p1%dC
+  parm_rindex               rin        = ^[[%p1%dT
+  parm_up_cursor            cuu        = ^[[%p1%dA
+  reset_2string             rs2        = ^[c^[[?1000l^[[?25h
+  restore_cursor            rc         = ^[8
+  row_address               vpa        = ^[[%i%p1%dd
+  save_cursor               sc         = ^[7
+  scroll_forward            ind        = ^@
+  scroll_reverse            ri         = ^[M
+  set_attributes            sgr        = ^[[0%?%p6%t;1%;%?%p1%t;3%;%?%p2%t;4%;%?%p3%t;7%;%?%p4%t;5%;%?%p5%t;2%;m%?%p9%t^N%e^O%;
+  set_tab                   hts        = ^[H
+  tab                       ht         = 	
+  to_status_line            tsl        = ^[_
+  acs_chars                 acsc       = ++,,--..00``aaffgghhiijjkkllmmnnooppqqrrssttuuvvwwxxyyzz{{||}}~~
+  key_btab                  kcbt       = ^[[Z
+  ena_acs                   enacs      = ^[(B^[)0
+  key_end                   kend       = ^[[4~
+  key_f11                   kf11       = ^[[23~
+  key_f12                   kf12       = ^[[24~
+  clr_bol                   el1        = ^[[1K
+  user6                     u6         = ^[[%i%d;%dR
+  user7                     u7         = ^[[6n
+  user8                     u8         = ^[[?1;2c
+  user9                     u9         = ^[[c
+  orig_pair                 op         = ^[[39;49m
+  key_mouse                 kmous      = ^[[M
+  set_a_foreground          setaf      = ^[[%?%p1%{8}%<%t3%p1%d%e%p1%{16}%<%t9%p1%{8}%-%d%e38;5;%p1%d%;m
+  set_a_background          setab      = ^[[%?%p1%{8}%<%t4%p1%d%e%p1%{16}%<%t10%p1%{8}%-%d%e48;5;%p1%d%;m
+Extended boolean capabilities:
+  AX                        = true
+  G0                        = true
+Extended numeric capabilities:
+  U8                        = 1
+Extended string capabilities:
+  E0                        = ^[(B
+  S0                        = ^[(%p1%c
+  Ss                        = ^[[%p1%d q
+  Se                        = ^[[ q
+  ext.enter_altfont_mode    = ^[[11m
+  setrgbf                   = ^[[38;2;%p1%d;%p2%d;%p3%dm
+  setrgbb                   = ^[[48;2;%p1%d;%p2%d;%p3%dm
+  ext.set_cursor_color      = ^[]12;%p1%s^G
+  ext.reset_cursor_color    = ^[]112^G
+  ext.save_title            = ^[[22;0t
+  ext.restore_title         = ^[[23;0t
+  ext.set_title             = ^[_%p2%s^[\
+  ext.enable_lr_margin      = ^[[?69h
+  ext.disable_lr_margin     = ^[[?69l
+  ext.enable_bpaste         = ^[[?2004h
+  ext.disable_bpaste        = ^[[?2004l
+  ext.enable_focus          = ^[[?1004h
+  ext.disable_focus         = ^[[?1004l
+  ext.enable_mouse          = ^[[?1002h^[[?1006h
+  ext.disable_mouse         = ^[[?1002l^[[?1006l
+  ext.enable_mouse_move     = ^[[?1003h
+  ext.disable_mouse_move    = ^[[?1003l
+}}}
+
+ blink.cmp   sources  →  providers  →  path  →  priority  Unexpected field in configuration!
+ blink.cmp   sources  →  providers  →  lsp  →  priority  Unexpected field in configuration!
+ blink.cmp   sources  →  providers  →  buffer  →  priority  Unexpected field in configuration!
+ blink.cmp   sources  →  providers  →  snippets  →  priority  Unexpected field in configuration!
+Executing WinResized Autocommands for "*"
+autocommand <Lua 210: ~/.local/share/nvim/lazy/render-markdown.nvim/lua/render-markdown/core/manager.lua:46>
+
+Executing WinScrolled Autocommands for "*"
+autocommand <Lua 150: ~/.local/share/nvim/lazy/indent-blankline.nvim/lua/ibl/autocmds.lua:40>
+
+not found in runtime path: "parser/html.*"
+Executing WinScrolled Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing WinScrolled Autocommands for "*"
+autocommand <Lua 418: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/scroll.lua:191>
+
+not found in runtime path: "parser/html.*"
+Executing LspAttach Autocommands for "*"
+autocommand <Lua 224: ~/.config/nvim/lua/null_ls.lua:33>
+
+Executing LspAttach Autocommands for "*"
+autocommand <Lua 438: ~/.local/share/nvim/lazy/which-key.nvim/lua/which-key/state.lua:126>
+
+Executing LspAttach Autocommands for "*"
+autocommand <Lua 455: ~/.local/share/nvim/lazy/noice.nvim/lua/noice/lsp/signature.lua:54>
+
+Executing LspNotify Autocommands for "<buffer=1>"
+autocommand <Lua 469: /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/lua/vim/lsp/diagnostic.lua:363>
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 103: ~/.local/share/nvim/lazy/indent-blankline.nvim/lua/ibl/autocmds.lua:26>
+
+not found in runtime path: "parser/html.*"
+Executing CursorMoved Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 360: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/scope.lua:672>
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 415: vim/_editor.lua:0>
+
+Executing CursorMoved Autocommands for "*"
+autocommand call v:lua.require'lualine'.refresh({'kind': 'tabpage', 'place': ['statusline'], 'trigger': 'autocmd'})
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 222: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/words.lua:42>
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 132: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/lib/buffer_events.lua:81>
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 103: ~/.local/share/nvim/lazy/indent-blankline.nvim/lua/ibl/autocmds.lua:26>
+
+not found in runtime path: "parser/html.*"
+Executing CursorMoved Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 360: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/scope.lua:672>
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 415: vim/_editor.lua:0>
+
+Executing CursorMoved Autocommands for "*"
+autocommand call v:lua.require'lualine'.refresh({'kind': 'tabpage', 'place': ['statusline'], 'trigger': 'autocmd'})
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 222: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/words.lua:42>
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 132: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/lib/buffer_events.lua:81>
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 103: ~/.local/share/nvim/lazy/indent-blankline.nvim/lua/ibl/autocmds.lua:26>
+
+Executing CursorMoved Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 360: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/scope.lua:672>
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 415: vim/_editor.lua:0>
+
+Executing CursorMoved Autocommands for "*"
+autocommand call v:lua.require'lualine'.refresh({'kind': 'tabpage', 'place': ['statusline'], 'trigger': 'autocmd'})
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 222: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/words.lua:42>
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 132: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/lib/buffer_events.lua:81>
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 103: ~/.local/share/nvim/lazy/indent-blankline.nvim/lua/ibl/autocmds.lua:26>
+
+not found in runtime path: "parser/html.*"
+Executing CursorMoved Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 360: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/scope.lua:672>
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 415: vim/_editor.lua:0>
+
+Executing CursorMoved Autocommands for "*"
+autocommand call v:lua.require'lualine'.refresh({'kind': 'tabpage', 'place': ['statusline'], 'trigger': 'autocmd'})
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 222: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/words.lua:42>
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 132: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/lib/buffer_events.lua:81>
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 103: ~/.local/share/nvim/lazy/indent-blankline.nvim/lua/ibl/autocmds.lua:26>
+
+Executing CursorMoved Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 360: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/scope.lua:672>
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 415: vim/_editor.lua:0>
+
+Executing CursorMoved Autocommands for "*"
+autocommand call v:lua.require'lualine'.refresh({'kind': 'tabpage', 'place': ['statusline'], 'trigger': 'autocmd'})
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 222: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/words.lua:42>
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 132: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/lib/buffer_events.lua:81>
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 103: ~/.local/share/nvim/lazy/indent-blankline.nvim/lua/ibl/autocmds.lua:26>
+
+not found in runtime path: "parser/html.*"
+Executing CursorMoved Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 360: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/scope.lua:672>
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 415: vim/_editor.lua:0>
+
+Executing CursorMoved Autocommands for "*"
+autocommand call v:lua.require'lualine'.refresh({'kind': 'tabpage', 'place': ['statusline'], 'trigger': 'autocmd'})
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 222: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/words.lua:42>
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 132: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/lib/buffer_events.lua:81>
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 103: ~/.local/share/nvim/lazy/indent-blankline.nvim/lua/ibl/autocmds.lua:26>
+
+Executing CursorMoved Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 360: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/scope.lua:672>
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 415: vim/_editor.lua:0>
+
+Executing CursorMoved Autocommands for "*"
+autocommand call v:lua.require'lualine'.refresh({'kind': 'tabpage', 'place': ['statusline'], 'trigger': 'autocmd'})
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 222: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/words.lua:42>
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 132: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/lib/buffer_events.lua:81>
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 103: ~/.local/share/nvim/lazy/indent-blankline.nvim/lua/ibl/autocmds.lua:26>
+
+not found in runtime path: "parser/html.*"
+Executing CursorMoved Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 360: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/scope.lua:672>
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 415: vim/_editor.lua:0>
+
+Executing CursorMoved Autocommands for "*"
+autocommand call v:lua.require'lualine'.refresh({'kind': 'tabpage', 'place': ['statusline'], 'trigger': 'autocmd'})
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 222: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/words.lua:42>
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 132: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/lib/buffer_events.lua:81>
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 103: ~/.local/share/nvim/lazy/indent-blankline.nvim/lua/ibl/autocmds.lua:26>
+
+Executing CursorMoved Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 360: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/scope.lua:672>
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 415: vim/_editor.lua:0>
+
+Executing CursorMoved Autocommands for "*"
+autocommand call v:lua.require'lualine'.refresh({'kind': 'tabpage', 'place': ['statusline'], 'trigger': 'autocmd'})
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 222: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/words.lua:42>
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 132: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/lib/buffer_events.lua:81>
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 103: ~/.local/share/nvim/lazy/indent-blankline.nvim/lua/ibl/autocmds.lua:26>
+
+not found in runtime path: "parser/html.*"
+Executing CursorMoved Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 360: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/scope.lua:672>
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 415: vim/_editor.lua:0>
+
+Executing CursorMoved Autocommands for "*"
+autocommand call v:lua.require'lualine'.refresh({'kind': 'tabpage', 'place': ['statusline'], 'trigger': 'autocmd'})
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 222: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/words.lua:42>
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 132: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/lib/buffer_events.lua:81>
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 103: ~/.local/share/nvim/lazy/indent-blankline.nvim/lua/ibl/autocmds.lua:26>
+
+Executing CursorMoved Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 360: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/scope.lua:672>
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 415: vim/_editor.lua:0>
+
+Executing CursorMoved Autocommands for "*"
+autocommand call v:lua.require'lualine'.refresh({'kind': 'tabpage', 'place': ['statusline'], 'trigger': 'autocmd'})
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 222: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/words.lua:42>
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 132: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/lib/buffer_events.lua:81>
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 103: ~/.local/share/nvim/lazy/indent-blankline.nvim/lua/ibl/autocmds.lua:26>
+
+not found in runtime path: "parser/html.*"
+Executing CursorMoved Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 360: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/scope.lua:672>
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 415: vim/_editor.lua:0>
+
+Executing CursorMoved Autocommands for "*"
+autocommand call v:lua.require'lualine'.refresh({'kind': 'tabpage', 'place': ['statusline'], 'trigger': 'autocmd'})
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 222: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/words.lua:42>
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 132: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/lib/buffer_events.lua:81>
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 103: ~/.local/share/nvim/lazy/indent-blankline.nvim/lua/ibl/autocmds.lua:26>
+
+Executing CursorMoved Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 360: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/scope.lua:672>
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 415: vim/_editor.lua:0>
+
+Executing CursorMoved Autocommands for "*"
+autocommand call v:lua.require'lualine'.refresh({'kind': 'tabpage', 'place': ['statusline'], 'trigger': 'autocmd'})
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 222: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/words.lua:42>
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 132: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/lib/buffer_events.lua:81>
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 103: ~/.local/share/nvim/lazy/indent-blankline.nvim/lua/ibl/autocmds.lua:26>
+
+not found in runtime path: "parser/html.*"
+Executing CursorMoved Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 360: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/scope.lua:672>
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 415: vim/_editor.lua:0>
+
+Executing CursorMoved Autocommands for "*"
+autocommand call v:lua.require'lualine'.refresh({'kind': 'tabpage', 'place': ['statusline'], 'trigger': 'autocmd'})
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 222: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/words.lua:42>
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 132: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/lib/buffer_events.lua:81>
+
+Executing WinClosed Autocommands for "*"
+autocommand <Lua 339: ~/.local/share/nvim/lazy/nvim-tree.lua/lua/nvim-tree.lua:244>
+
+Executing WinClosed Autocommands for "*"
+autocommand <Lua 357: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/scope.lua:680>
+
+Executing WinClosed Autocommands for "*"
+autocommand <Lua 383: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/indent.lua:521>
+
+Executing WinClosed Autocommands for "1002"
+autocommand <Lua 211: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/win.lua:464>
+
+Executing FileType Autocommands for "*"
+autocommand if !exists('b:ts_highlight') | 0verbose exe "set syntax=" . expand("<amatch>") | endif
+
+Executing BufWipeout Autocommands for "*"
+autocommand <Lua 191: ~/.local/share/nvim/lazy/LuaSnip/lua/luasnip/config.lua:116>
+
+Executing BufWipeout Autocommands for "*"
+autocommand <Lua 379: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/scope.lua:680>
+
+Executing BufWipeout Autocommands for "*"
+autocommand <Lua 385: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/indent.lua:521>
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 103: ~/.local/share/nvim/lazy/indent-blankline.nvim/lua/ibl/autocmds.lua:26>
+
+Executing CursorMoved Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 360: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/scope.lua:672>
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 415: vim/_editor.lua:0>
+
+Executing CursorMoved Autocommands for "*"
+autocommand call v:lua.require'lualine'.refresh({'kind': 'tabpage', 'place': ['statusline'], 'trigger': 'autocmd'})
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 222: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/words.lua:42>
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 132: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/lib/buffer_events.lua:81>
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 103: ~/.local/share/nvim/lazy/indent-blankline.nvim/lua/ibl/autocmds.lua:26>
+
+not found in runtime path: "parser/html.*"
+Executing CursorMoved Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 360: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/scope.lua:672>
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 415: vim/_editor.lua:0>
+
+Executing CursorMoved Autocommands for "*"
+autocommand call v:lua.require'lualine'.refresh({'kind': 'tabpage', 'place': ['statusline'], 'trigger': 'autocmd'})
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 222: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/words.lua:42>
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 132: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/lib/buffer_events.lua:81>
+
+Executing InsertEnter Autocommands for "*"
+autocommand <Lua 78: ~/.local/share/nvim/lazy/lazy.nvim/lua/lazy/core/handler/event.lua:72>
+
+line 0: sourcing "nvim_exec2() called at InsertEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at InsertEnter Autocommands for "*":0
+continuing in InsertEnter Autocommands for "*"
+line 0: sourcing "nvim_exec2() called at InsertEnter Autocommands for "*":0"
+finished sourcing nvim_exec2() called at InsertEnter Autocommands for "*":0
+continuing in InsertEnter Autocommands for "*"
+Executing InsertEnter Autocommands for "*"
+autocommand <Lua 127: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/keymap/init.lua:81>
+
+autocommand <Lua 121: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/lib/buffer_events.lua:81>
+
+Executing InsertEnter Autocommands for "<buffer=1>"
+autocommand <Lua 478: ~/.local/share/nvim/lazy/noice.nvim/lua/noice/util/init.lua:106>
+
+Executing ModeChanged Autocommands for "*"
+autocommand call v:lua.require'lualine'.refresh({'kind': 'tabpage', 'place': ['statusline'], 'trigger': 'autocmd'})
+
+Executing ModeChanged Autocommands for "*"
+autocommand <Lua 207: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/words.lua:42>
+
+Executing ModeChanged Autocommands for "*"
+autocommand <Lua 395: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/lib/buffer_events.lua:122>
+
+Executing ModeChanged Autocommands for "*"
+autocommand <Lua 437: ~/.local/share/nvim/lazy/which-key.nvim/lua/which-key/state.lua:93>
+
+Executing ModeChanged Autocommands for "<buffer=1>"
+autocommand <Lua 477: ~/.local/share/nvim/lazy/noice.nvim/lua/noice/lsp/signature.lua:122>
+-- INSERT --
+Executing CursorMovedI Autocommands for "*"
+autocommand <Lua 128: ~/.local/share/nvim/lazy/indent-blankline.nvim/lua/ibl/autocmds.lua:26>
+
+not found in runtime path: "parser/html.*"
+Executing CursorMovedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMovedI Autocommands for "*"
+autocommand <Lua 362: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/scope.lua:672>
+
+Executing CursorMovedI Autocommands for "*"
+autocommand <Lua 416: vim/_editor.lua:0>
+
+Executing CursorMovedI Autocommands for "*"
+autocommand call v:lua.require'lualine'.refresh({'kind': 'tabpage', 'place': ['statusline'], 'trigger': 'autocmd'})
+
+Executing CursorMovedI Autocommands for "*"
+autocommand <Lua 218: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/words.lua:42>
+
+Executing CursorMovedI Autocommands for "*"
+autocommand <Lua 62: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/lib/buffer_events.lua:81>
+
+Executing TextChangedI Autocommands for "*"
+autocommand <Lua 142: ~/.local/share/nvim/lazy/indent-blankline.nvim/lua/ibl/autocmds.lua:26>
+
+Executing TextChangedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing TextChangedI Autocommands for "*"
+autocommand <Lua 414: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/scroll.lua:152>
+
+Executing TextChangedI Autocommands for "*"
+autocommand <Lua 421: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/lib/buffer_events.lua:44>
+
+Executing TextChangedI Autocommands for "<buffer=1>"
+autocommand <Lua 480: ~/.local/share/nvim/lazy/noice.nvim/lua/noice/util/init.lua:106>
+
+Executing LspNotify Autocommands for "<buffer=1>"
+autocommand <Lua 469: /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/lua/vim/lsp/diagnostic.lua:363>
+
+not found in runtime path: "parser/html.*"
+Executing InsertCharPre Autocommands for "*"
+autocommand <Lua 423: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/lib/buffer_events.lua:139>
+
+Executing InsertCharPre Autocommands for "<buffer=1>"
+autocommand <Lua 557: ~/.local/share/nvim/lazy/nvim-autopairs/lua/nvim-autopairs.lua:309>
+
+Executing CursorMovedI Autocommands for "*"
+autocommand <Lua 128: ~/.local/share/nvim/lazy/indent-blankline.nvim/lua/ibl/autocmds.lua:26>
+
+not found in runtime path: "parser/html.*"
+Executing CursorMovedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMovedI Autocommands for "*"
+autocommand <Lua 362: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/scope.lua:672>
+
+Executing CursorMovedI Autocommands for "*"
+autocommand <Lua 416: vim/_editor.lua:0>
+
+Executing CursorMovedI Autocommands for "*"
+autocommand call v:lua.require'lualine'.refresh({'kind': 'tabpage', 'place': ['statusline'], 'trigger': 'autocmd'})
+
+Executing CursorMovedI Autocommands for "*"
+autocommand <Lua 218: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/words.lua:42>
+
+Executing CursorMovedI Autocommands for "*"
+autocommand <Lua 62: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/lib/buffer_events.lua:81>
+
+Executing TextChangedI Autocommands for "*"
+autocommand <Lua 142: ~/.local/share/nvim/lazy/indent-blankline.nvim/lua/ibl/autocmds.lua:26>
+
+Executing TextChangedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing TextChangedI Autocommands for "*"
+autocommand <Lua 414: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/scroll.lua:152>
+
+Executing TextChangedI Autocommands for "*"
+autocommand <Lua 421: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/lib/buffer_events.lua:44>
+
+Executing TextChangedI Autocommands for "<buffer=1>"
+autocommand <Lua 480: ~/.local/share/nvim/lazy/noice.nvim/lua/noice/util/init.lua:106>
+
+Executing LspNotify Autocommands for "<buffer=1>"
+autocommand <Lua 469: /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/lua/vim/lsp/diagnostic.lua:363>
+
+Executing BufNew Autocommands for "*"
+autocommand <Lua 441: ~/.local/share/nvim/lazy/which-key.nvim/lua/which-key/state.lua:135>
+
+Executing OptionSet Autocommands for "tabstop"
+autocommand <Lua 146: ~/.local/share/nvim/lazy/indent-blankline.nvim/lua/ibl/autocmds.lua:33>
+
+Executing BufWinEnter Autocommands for "*"
+autocommand <Lua 135: ~/.local/share/nvim/lazy/indent-blankline.nvim/lua/ibl/autocmds.lua:26>
+
+Executing BufWinEnter Autocommands for "*"
+autocommand <Lua 192: ~/.local/share/nvim/lazy/LuaSnip/plugin/luasnip.lua:77>
+
+Executing BufWinEnter Autocommands for "*"
+autocommand autocmd SafeState * ++once call s:Highlight_Matching_Pair()
+
+Executing BufWinEnter Autocommands for "*"
+autocommand <Lua 412: vim/_editor.lua:0>
+
+Executing BufWinEnter Autocommands for "*"
+autocommand <Lua 554: ~/.local/share/nvim/lazy/nvim-autopairs/lua/nvim-autopairs.lua:62>
+
+Executing FileType Autocommands for "*"
+autocommand call s:LoadFTPlugin()
+
+not found in runtime path: "ftplugin/blink-cmp-menu[.]{vim,lua} ftplugin/blink-cmp-menu_*.{vim,lua} ftplugin/blink-cmp-menu/*.{vim,lua}"
+Executing FileType Autocommands for "*"
+autocommand call s:LoadIndent()
+
+not found in runtime path: "indent/blink-cmp-menu[.]{vim,lua}"
+Executing FileType Autocommands for "*"
+autocommand <Lua 140: ~/.local/share/nvim/lazy/indent-blankline.nvim/lua/ibl/autocmds.lua:26>
+
+Executing FileType Autocommands for "*"
+autocommand <Lua 193: ~/.local/share/nvim/lazy/LuaSnip/plugin/luasnip.lua:77>
+
+Executing FileType Autocommands for "*"
+autocommand if exists('b:sleuth') | exe s:Init(0, 0, 0, 1) | endif
+
+Executing FileType Autocommands for "*"
+autocommand <Lua 206: ~/.local/share/nvim/lazy/render-markdown.nvim/lua/render-markdown/core/manager.lua:39>
+
+Executing FileType Autocommands for "*"
+autocommand <Lua 160: /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/lua/vim/lsp.lua:613>
+
+Executing FileType Autocommands for "*"
+autocommand <Lua 220: ~/.local/share/nvim/lazy/none-ls.nvim/lua/null-ls/init.lua:42>
+
+Executing FileType Autocommands for "*"
+autocommand <Lua 350: ~/.local/share/nvim/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:132>
+
+not found in runtime path: "parser/blink-cmp-menu.*"
+Executing FileType Autocommands for "*"
+autocommand <Lua 351: ~/.local/share/nvim/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:132>
+
+Executing FileType Autocommands for "*"
+autocommand if !exists('b:ts_highlight') | 0verbose exe "set syntax=" . expand("<amatch>") | endif
+
+Executing FileType Autocommands for "*"
+autocommand call v:lua.require'lualine'.refresh({'kind': 'tabpage', 'place': ['statusline'], 'trigger': 'autocmd'})
+
+Executing FileType Autocommands for "*"
+autocommand <Lua 552: ~/.local/share/nvim/lazy/nvim-autopairs/lua/nvim-autopairs.lua:78>
+
+Executing BufNew Autocommands for "*"
+autocommand <Lua 441: ~/.local/share/nvim/lazy/which-key.nvim/lua/which-key/state.lua:135>
+
+Executing SafeState Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+-- INSERT --
+not found in runtime path: "parser/html.*"
+Executing InsertCharPre Autocommands for "*"
+autocommand <Lua 423: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/lib/buffer_events.lua:139>
+
+Executing InsertCharPre Autocommands for "<buffer=1>"
+autocommand <Lua 557: ~/.local/share/nvim/lazy/nvim-autopairs/lua/nvim-autopairs.lua:309>
+
+Executing CursorMovedI Autocommands for "*"
+autocommand <Lua 128: ~/.local/share/nvim/lazy/indent-blankline.nvim/lua/ibl/autocmds.lua:26>
+
+not found in runtime path: "parser/html.*"
+Executing CursorMovedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMovedI Autocommands for "*"
+autocommand <Lua 362: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/scope.lua:672>
+
+Executing CursorMovedI Autocommands for "*"
+autocommand <Lua 416: vim/_editor.lua:0>
+
+Executing CursorMovedI Autocommands for "*"
+autocommand call v:lua.require'lualine'.refresh({'kind': 'tabpage', 'place': ['statusline'], 'trigger': 'autocmd'})
+
+Executing CursorMovedI Autocommands for "*"
+autocommand <Lua 218: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/words.lua:42>
+
+Executing CursorMovedI Autocommands for "*"
+autocommand <Lua 62: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/lib/buffer_events.lua:81>
+
+autocommand <Lua 286: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/completion/windows/menu.lua:61>
+
+autocommand <Lua 163: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/completion/windows/ghost_text/init.lua:23>
+
+Executing TextChangedI Autocommands for "*"
+autocommand <Lua 142: ~/.local/share/nvim/lazy/indent-blankline.nvim/lua/ibl/autocmds.lua:26>
+
+Executing TextChangedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing TextChangedI Autocommands for "*"
+autocommand <Lua 414: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/scroll.lua:152>
+
+Executing TextChangedI Autocommands for "*"
+autocommand <Lua 421: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/lib/buffer_events.lua:44>
+
+Executing TextChangedI Autocommands for "<buffer=1>"
+autocommand <Lua 480: ~/.local/share/nvim/lazy/noice.nvim/lua/noice/util/init.lua:106>
+
+Executing TextChangedI Autocommands for "*"
+autocommand <Lua 394: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/completion/windows/ghost_text/init.lua:23>
+-- INSERT --
+Executing LspNotify Autocommands for "<buffer=1>"
+autocommand <Lua 469: /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/lua/vim/lsp/diagnostic.lua:363>
+
+Executing WinClosed Autocommands for "*"
+autocommand <Lua 339: ~/.local/share/nvim/lazy/nvim-tree.lua/lua/nvim-tree.lua:244>
+
+Executing WinClosed Autocommands for "*"
+autocommand <Lua 357: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/scope.lua:680>
+
+Executing WinClosed Autocommands for "*"
+autocommand <Lua 383: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/indent.lua:521>
+
+Executing WinClosed Autocommands for "*"
+autocommand <Lua 339: ~/.local/share/nvim/lazy/nvim-tree.lua/lua/nvim-tree.lua:244>
+
+Executing WinClosed Autocommands for "*"
+autocommand <Lua 357: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/scope.lua:680>
+
+Executing WinClosed Autocommands for "*"
+autocommand <Lua 383: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/indent.lua:521>
+
+Executing WinResized Autocommands for "*"
+autocommand <Lua 210: ~/.local/share/nvim/lazy/render-markdown.nvim/lua/render-markdown/core/manager.lua:46>
+
+Executing WinResized Autocommands for "*"
+autocommand <Lua 475: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/completion/windows/menu.lua:61>
+
+Executing WinScrolled Autocommands for "*"
+autocommand <Lua 150: ~/.local/share/nvim/lazy/indent-blankline.nvim/lua/ibl/autocmds.lua:40>
+
+Executing WinScrolled Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing WinScrolled Autocommands for "*"
+autocommand <Lua 418: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/scroll.lua:191>
+
+Executing WinScrolled Autocommands for "*"
+autocommand <Lua 476: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/completion/windows/menu.lua:61>
+-- INSERT --
+not found in runtime path: "parser/html.*"
+Executing WinClosed Autocommands for "*"
+autocommand <Lua 339: ~/.local/share/nvim/lazy/nvim-tree.lua/lua/nvim-tree.lua:244>
+
+Executing WinClosed Autocommands for "*"
+autocommand <Lua 357: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/scope.lua:680>
+
+Executing WinClosed Autocommands for "*"
+autocommand <Lua 383: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/indent.lua:521>
+-- INSERT --
+Executing LspNotify Autocommands for "<buffer=1>"
+autocommand <Lua 469: /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/lua/vim/lsp/diagnostic.lua:363>
+
+Executing LspNotify Autocommands for "<buffer=1>"
+autocommand <Lua 469: /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/lua/vim/lsp/diagnostic.lua:363>
+
+Executing ModeChanged Autocommands for "*"
+autocommand call v:lua.require'lualine'.refresh({'kind': 'tabpage', 'place': ['statusline'], 'trigger': 'autocmd'})
+
+Executing ModeChanged Autocommands for "*"
+autocommand <Lua 207: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/words.lua:42>
+
+Executing ModeChanged Autocommands for "*"
+autocommand <Lua 395: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/lib/buffer_events.lua:122>
+
+Executing ModeChanged Autocommands for "*"
+autocommand <Lua 437: ~/.local/share/nvim/lazy/which-key.nvim/lua/which-key/state.lua:93>
+
+Executing ModeChanged Autocommands for "<buffer=1>"
+autocommand <Lua 477: ~/.local/share/nvim/lazy/noice.nvim/lua/noice/lsp/signature.lua:122>
+
+Executing ModeChanged Autocommands for "*"
+autocommand call v:lua.require'lualine'.refresh({'kind': 'tabpage', 'place': ['statusline'], 'trigger': 'autocmd'})
+
+Executing ModeChanged Autocommands for "*"
+autocommand <Lua 207: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/words.lua:42>
+
+Executing ModeChanged Autocommands for "*"
+autocommand <Lua 395: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/lib/buffer_events.lua:122>
+
+Executing ModeChanged Autocommands for "*"
+autocommand <Lua 437: ~/.local/share/nvim/lazy/which-key.nvim/lua/which-key/state.lua:93>
+
+Executing ModeChanged Autocommands for "<buffer=1>"
+autocommand <Lua 477: ~/.local/share/nvim/lazy/noice.nvim/lua/noice/lsp/signature.lua:122>
+-- INSERT --
+Executing ModeChanged Autocommands for "*"
+autocommand call v:lua.require'lualine'.refresh({'kind': 'tabpage', 'place': ['statusline'], 'trigger': 'autocmd'})
+
+Executing ModeChanged Autocommands for "*"
+autocommand <Lua 207: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/words.lua:42>
+
+Executing ModeChanged Autocommands for "*"
+autocommand <Lua 395: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/lib/buffer_events.lua:122>
+
+Executing ModeChanged Autocommands for "*"
+autocommand <Lua 437: ~/.local/share/nvim/lazy/which-key.nvim/lua/which-key/state.lua:93>
+
+Executing ModeChanged Autocommands for "<buffer=1>"
+autocommand <Lua 477: ~/.local/share/nvim/lazy/noice.nvim/lua/noice/lsp/signature.lua:122>
+
+Executing CursorMovedI Autocommands for "*"
+autocommand <Lua 128: ~/.local/share/nvim/lazy/indent-blankline.nvim/lua/ibl/autocmds.lua:26>
+
+not found in runtime path: "parser/html.*"
+Executing CursorMovedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMovedI Autocommands for "*"
+autocommand <Lua 362: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/scope.lua:672>
+
+Executing CursorMovedI Autocommands for "*"
+autocommand <Lua 416: vim/_editor.lua:0>
+
+Executing CursorMovedI Autocommands for "*"
+autocommand call v:lua.require'lualine'.refresh({'kind': 'tabpage', 'place': ['statusline'], 'trigger': 'autocmd'})
+
+Executing CursorMovedI Autocommands for "*"
+autocommand <Lua 218: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/words.lua:42>
+
+Executing CursorMovedI Autocommands for "*"
+autocommand <Lua 62: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/lib/buffer_events.lua:81>
+
+autocommand <Lua 286: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/completion/windows/menu.lua:61>
+
+autocommand <Lua 163: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/completion/windows/ghost_text/init.lua:23>
+
+Executing CursorMovedI Autocommands for "<buffer=1>"
+autocommand <Lua 588: /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/lua/vim/snippet.lua:338>
+
+Executing TextChangedI Autocommands for "*"
+autocommand <Lua 142: ~/.local/share/nvim/lazy/indent-blankline.nvim/lua/ibl/autocmds.lua:26>
+
+Executing TextChangedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing TextChangedI Autocommands for "*"
+autocommand <Lua 414: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/scroll.lua:152>
+
+Executing TextChangedI Autocommands for "*"
+autocommand <Lua 421: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/lib/buffer_events.lua:44>
+
+Executing TextChangedI Autocommands for "<buffer=1>"
+autocommand <Lua 480: ~/.local/share/nvim/lazy/noice.nvim/lua/noice/util/init.lua:106>
+
+Executing TextChangedI Autocommands for "*"
+autocommand <Lua 394: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/completion/windows/ghost_text/init.lua:23>
+
+Executing TextChangedI Autocommands for "<buffer=1>"
+autocommand <Lua 590: /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/lua/vim/snippet.lua:382>
+
+not found in runtime path: "parser/html.*"
+
+Executing ModeChanged Autocommands for "*"
+autocommand call v:lua.require'lualine'.refresh({'kind': 'tabpage', 'place': ['statusline'], 'trigger': 'autocmd'})
+
+Executing ModeChanged Autocommands for "*"
+autocommand <Lua 207: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/words.lua:42>
+
+Executing ModeChanged Autocommands for "*"
+autocommand <Lua 395: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/lib/buffer_events.lua:122>
+
+Executing ModeChanged Autocommands for "*"
+autocommand <Lua 437: ~/.local/share/nvim/lazy/which-key.nvim/lua/which-key/state.lua:93>
+
+Executing ModeChanged Autocommands for "<buffer=1>"
+autocommand <Lua 477: ~/.local/share/nvim/lazy/noice.nvim/lua/noice/lsp/signature.lua:122>
+
+Executing ModeChanged Autocommands for "*"
+autocommand call v:lua.require'lualine'.refresh({'kind': 'tabpage', 'place': ['statusline'], 'trigger': 'autocmd'})
+
+Executing ModeChanged Autocommands for "*"
+autocommand <Lua 207: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/words.lua:42>
+
+Executing ModeChanged Autocommands for "*"
+autocommand <Lua 395: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/lib/buffer_events.lua:122>
+
+Executing ModeChanged Autocommands for "*"
+autocommand <Lua 437: ~/.local/share/nvim/lazy/which-key.nvim/lua/which-key/state.lua:93>
+
+Executing ModeChanged Autocommands for "<buffer=1>"
+autocommand <Lua 477: ~/.local/share/nvim/lazy/noice.nvim/lua/noice/lsp/signature.lua:122>
+
+Executing ModeChanged Autocommands for "*"
+autocommand call v:lua.require'lualine'.refresh({'kind': 'tabpage', 'place': ['statusline'], 'trigger': 'autocmd'})
+
+Executing ModeChanged Autocommands for "*"
+autocommand <Lua 207: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/words.lua:42>
+
+Executing ModeChanged Autocommands for "*"
+autocommand <Lua 395: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/lib/buffer_events.lua:122>
+
+Executing ModeChanged Autocommands for "*"
+autocommand <Lua 437: ~/.local/share/nvim/lazy/which-key.nvim/lua/which-key/state.lua:93>
+
+Executing ModeChanged Autocommands for "<buffer=1>"
+autocommand <Lua 477: ~/.local/share/nvim/lazy/noice.nvim/lua/noice/lsp/signature.lua:122>
+
+Executing ModeChanged Autocommands for "*"
+autocommand call v:lua.require'lualine'.refresh({'kind': 'tabpage', 'place': ['statusline'], 'trigger': 'autocmd'})
+
+Executing ModeChanged Autocommands for "*"
+autocommand <Lua 207: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/words.lua:42>
+
+Executing ModeChanged Autocommands for "*"
+autocommand <Lua 395: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/lib/buffer_events.lua:122>
+
+Executing ModeChanged Autocommands for "*"
+autocommand <Lua 437: ~/.local/share/nvim/lazy/which-key.nvim/lua/which-key/state.lua:93>
+
+Executing ModeChanged Autocommands for "<buffer=1>"
+autocommand <Lua 477: ~/.local/share/nvim/lazy/noice.nvim/lua/noice/lsp/signature.lua:122>
+
+Executing ModeChanged Autocommands for "*"
+autocommand call v:lua.require'lualine'.refresh({'kind': 'tabpage', 'place': ['statusline'], 'trigger': 'autocmd'})
+
+Executing ModeChanged Autocommands for "*"
+autocommand <Lua 207: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/words.lua:42>
+
+Executing ModeChanged Autocommands for "*"
+autocommand <Lua 395: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/lib/buffer_events.lua:122>
+
+Executing ModeChanged Autocommands for "*"
+autocommand <Lua 437: ~/.local/share/nvim/lazy/which-key.nvim/lua/which-key/state.lua:93>
+
+Executing ModeChanged Autocommands for "<buffer=1>"
+autocommand <Lua 477: ~/.local/share/nvim/lazy/noice.nvim/lua/noice/lsp/signature.lua:122>
+
+Executing ModeChanged Autocommands for "*"
+autocommand call v:lua.require'lualine'.refresh({'kind': 'tabpage', 'place': ['statusline'], 'trigger': 'autocmd'})
+
+Executing ModeChanged Autocommands for "*"
+autocommand <Lua 207: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/words.lua:42>
+
+Executing ModeChanged Autocommands for "*"
+autocommand <Lua 395: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/lib/buffer_events.lua:122>
+
+Executing ModeChanged Autocommands for "*"
+autocommand <Lua 437: ~/.local/share/nvim/lazy/which-key.nvim/lua/which-key/state.lua:93>
+
+Executing ModeChanged Autocommands for "<buffer=1>"
+autocommand <Lua 477: ~/.local/share/nvim/lazy/noice.nvim/lua/noice/lsp/signature.lua:122>
+
+Executing ModeChanged Autocommands for "*"
+autocommand call v:lua.require'lualine'.refresh({'kind': 'tabpage', 'place': ['statusline'], 'trigger': 'autocmd'})
+
+Executing ModeChanged Autocommands for "*"
+autocommand <Lua 207: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/words.lua:42>
+
+Executing ModeChanged Autocommands for "*"
+autocommand <Lua 395: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/lib/buffer_events.lua:122>
+
+Executing ModeChanged Autocommands for "*"
+autocommand <Lua 437: ~/.local/share/nvim/lazy/which-key.nvim/lua/which-key/state.lua:93>
+
+Executing ModeChanged Autocommands for "<buffer=1>"
+autocommand <Lua 477: ~/.local/share/nvim/lazy/noice.nvim/lua/noice/lsp/signature.lua:122>
+
+Executing ModeChanged Autocommands for "*"
+autocommand call v:lua.require'lualine'.refresh({'kind': 'tabpage', 'place': ['statusline'], 'trigger': 'autocmd'})
+
+Executing ModeChanged Autocommands for "*"
+autocommand <Lua 207: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/words.lua:42>
+
+Executing ModeChanged Autocommands for "*"
+autocommand <Lua 395: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/lib/buffer_events.lua:122>
+
+Executing ModeChanged Autocommands for "*"
+autocommand <Lua 437: ~/.local/share/nvim/lazy/which-key.nvim/lua/which-key/state.lua:93>
+
+Executing ModeChanged Autocommands for "<buffer=1>"
+autocommand <Lua 477: ~/.local/share/nvim/lazy/noice.nvim/lua/noice/lsp/signature.lua:122>
+
+Executing CursorMovedI Autocommands for "*"
+autocommand <Lua 128: ~/.local/share/nvim/lazy/indent-blankline.nvim/lua/ibl/autocmds.lua:26>
+
+not found in runtime path: "parser/html.*"
+Executing CursorMovedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMovedI Autocommands for "*"
+autocommand <Lua 362: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/scope.lua:672>
+
+Executing CursorMovedI Autocommands for "*"
+autocommand <Lua 416: vim/_editor.lua:0>
+
+Executing CursorMovedI Autocommands for "*"
+autocommand call v:lua.require'lualine'.refresh({'kind': 'tabpage', 'place': ['statusline'], 'trigger': 'autocmd'})
+
+Executing CursorMovedI Autocommands for "*"
+autocommand <Lua 218: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/words.lua:42>
+
+Executing CursorMovedI Autocommands for "*"
+autocommand <Lua 62: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/lib/buffer_events.lua:81>
+
+autocommand <Lua 286: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/completion/windows/menu.lua:61>
+
+autocommand <Lua 163: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/completion/windows/ghost_text/init.lua:23>
+
+Executing CursorMovedI Autocommands for "<buffer=1>"
+autocommand <Lua 588: /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/lua/vim/snippet.lua:338>
+
+Executing TextChangedI Autocommands for "*"
+autocommand <Lua 142: ~/.local/share/nvim/lazy/indent-blankline.nvim/lua/ibl/autocmds.lua:26>
+
+Executing TextChangedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing TextChangedI Autocommands for "*"
+autocommand <Lua 414: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/scroll.lua:152>
+
+Executing TextChangedI Autocommands for "*"
+autocommand <Lua 421: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/lib/buffer_events.lua:44>
+
+Executing TextChangedI Autocommands for "<buffer=1>"
+autocommand <Lua 480: ~/.local/share/nvim/lazy/noice.nvim/lua/noice/util/init.lua:106>
+
+Executing TextChangedI Autocommands for "*"
+autocommand <Lua 394: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/completion/windows/ghost_text/init.lua:23>
+
+Executing TextChangedI Autocommands for "<buffer=1>"
+autocommand <Lua 590: /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/lua/vim/snippet.lua:382>
+
+Executing LspNotify Autocommands for "<buffer=1>"
+autocommand <Lua 469: /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/lua/vim/lsp/diagnostic.lua:363>
+
+Executing LspNotify Autocommands for "<buffer=1>"
+autocommand <Lua 469: /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/lua/vim/lsp/diagnostic.lua:363>
+
+not found in runtime path: "parser/html.*"
+Executing ModeChanged Autocommands for "*"
+autocommand call v:lua.require'lualine'.refresh({'kind': 'tabpage', 'place': ['statusline'], 'trigger': 'autocmd'})
+
+Executing ModeChanged Autocommands for "*"
+autocommand <Lua 207: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/words.lua:42>
+
+Executing ModeChanged Autocommands for "*"
+autocommand <Lua 395: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/lib/buffer_events.lua:122>
+
+Executing ModeChanged Autocommands for "*"
+autocommand <Lua 437: ~/.local/share/nvim/lazy/which-key.nvim/lua/which-key/state.lua:93>
+
+Executing ModeChanged Autocommands for "<buffer=1>"
+autocommand <Lua 477: ~/.local/share/nvim/lazy/noice.nvim/lua/noice/lsp/signature.lua:122>
+
+Executing InsertCharPre Autocommands for "*"
+autocommand <Lua 423: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/lib/buffer_events.lua:139>
+
+Executing InsertCharPre Autocommands for "<buffer=1>"
+autocommand <Lua 557: ~/.local/share/nvim/lazy/nvim-autopairs/lua/nvim-autopairs.lua:309>
+
+Executing CursorMovedI Autocommands for "*"
+autocommand <Lua 128: ~/.local/share/nvim/lazy/indent-blankline.nvim/lua/ibl/autocmds.lua:26>
+
+not found in runtime path: "parser/html.*"
+Executing CursorMovedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMovedI Autocommands for "*"
+autocommand <Lua 362: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/scope.lua:672>
+
+Executing CursorMovedI Autocommands for "*"
+autocommand <Lua 416: vim/_editor.lua:0>
+
+Executing CursorMovedI Autocommands for "*"
+autocommand call v:lua.require'lualine'.refresh({'kind': 'tabpage', 'place': ['statusline'], 'trigger': 'autocmd'})
+
+Executing CursorMovedI Autocommands for "*"
+autocommand <Lua 218: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/words.lua:42>
+
+Executing CursorMovedI Autocommands for "*"
+autocommand <Lua 62: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/lib/buffer_events.lua:81>
+
+autocommand <Lua 286: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/completion/windows/menu.lua:61>
+
+autocommand <Lua 163: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/completion/windows/ghost_text/init.lua:23>
+
+Executing CursorMovedI Autocommands for "<buffer=1>"
+autocommand <Lua 588: /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/lua/vim/snippet.lua:338>
+
+Executing TextChangedI Autocommands for "*"
+autocommand <Lua 142: ~/.local/share/nvim/lazy/indent-blankline.nvim/lua/ibl/autocmds.lua:26>
+
+Executing TextChangedI Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing TextChangedI Autocommands for "*"
+autocommand <Lua 414: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/scroll.lua:152>
+
+Executing TextChangedI Autocommands for "*"
+autocommand <Lua 421: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/lib/buffer_events.lua:44>
+
+Executing TextChangedI Autocommands for "<buffer=1>"
+autocommand <Lua 480: ~/.local/share/nvim/lazy/noice.nvim/lua/noice/util/init.lua:106>
+
+Executing TextChangedI Autocommands for "*"
+autocommand <Lua 394: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/completion/windows/ghost_text/init.lua:23>
+
+Executing TextChangedI Autocommands for "<buffer=1>"
+autocommand <Lua 590: /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/lua/vim/snippet.lua:382>
+
+Executing LspNotify Autocommands for "<buffer=1>"
+autocommand <Lua 469: /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/lua/vim/lsp/diagnostic.lua:363>
+
+Executing BufWinEnter Autocommands for "*"
+autocommand <Lua 135: ~/.local/share/nvim/lazy/indent-blankline.nvim/lua/ibl/autocmds.lua:26>
+
+Executing BufWinEnter Autocommands for "*"
+autocommand <Lua 192: ~/.local/share/nvim/lazy/LuaSnip/plugin/luasnip.lua:77>
+
+Executing BufWinEnter Autocommands for "*"
+autocommand autocmd SafeState * ++once call s:Highlight_Matching_Pair()
+
+Executing BufWinEnter Autocommands for "*"
+autocommand <Lua 412: vim/_editor.lua:0>
+
+Executing BufWinEnter Autocommands for "*"
+autocommand <Lua 554: ~/.local/share/nvim/lazy/nvim-autopairs/lua/nvim-autopairs.lua:62>
+
+Executing FileType Autocommands for "*"
+autocommand call s:LoadFTPlugin()
+
+not found in runtime path: "ftplugin/blink-cmp-menu[.]{vim,lua} ftplugin/blink-cmp-menu_*.{vim,lua} ftplugin/blink-cmp-menu/*.{vim,lua}"
+Executing FileType Autocommands for "*"
+autocommand call s:LoadIndent()
+
+not found in runtime path: "indent/blink-cmp-menu[.]{vim,lua}"
+Executing FileType Autocommands for "*"
+autocommand <Lua 140: ~/.local/share/nvim/lazy/indent-blankline.nvim/lua/ibl/autocmds.lua:26>
+
+Executing FileType Autocommands for "*"
+autocommand <Lua 193: ~/.local/share/nvim/lazy/LuaSnip/plugin/luasnip.lua:77>
+
+Executing FileType Autocommands for "*"
+autocommand if exists('b:sleuth') | exe s:Init(0, 0, 0, 1) | endif
+
+Executing FileType Autocommands for "*"
+autocommand <Lua 206: ~/.local/share/nvim/lazy/render-markdown.nvim/lua/render-markdown/core/manager.lua:39>
+
+Executing FileType Autocommands for "*"
+autocommand <Lua 160: /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/lua/vim/lsp.lua:613>
+
+Executing FileType Autocommands for "*"
+autocommand <Lua 220: ~/.local/share/nvim/lazy/none-ls.nvim/lua/null-ls/init.lua:42>
+
+Executing FileType Autocommands for "*"
+autocommand <Lua 350: ~/.local/share/nvim/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:132>
+
+Executing FileType Autocommands for "*"
+autocommand <Lua 351: ~/.local/share/nvim/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:132>
+
+Executing FileType Autocommands for "*"
+autocommand if !exists('b:ts_highlight') | 0verbose exe "set syntax=" . expand("<amatch>") | endif
+
+Executing FileType Autocommands for "*"
+autocommand call v:lua.require'lualine'.refresh({'kind': 'tabpage', 'place': ['statusline'], 'trigger': 'autocmd'})
+
+Executing FileType Autocommands for "*"
+autocommand <Lua 552: ~/.local/share/nvim/lazy/nvim-autopairs/lua/nvim-autopairs.lua:78>
+
+Executing SafeState Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+-- INSERT --
+not found in runtime path: "parser/html.*"
+Executing LspAttach Autocommands for "*"
+autocommand <Lua 224: ~/.config/nvim/lua/null_ls.lua:33>
+
+Executing LspAttach Autocommands for "*"
+autocommand <Lua 438: ~/.local/share/nvim/lazy/which-key.nvim/lua/which-key/state.lua:126>
+
+Executing LspAttach Autocommands for "*"
+autocommand <Lua 455: ~/.local/share/nvim/lazy/noice.nvim/lua/noice/lsp/signature.lua:54>
+
+Executing LspNotify Autocommands for "<buffer=1>"
+autocommand <Lua 469: /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/lua/vim/lsp/diagnostic.lua:363>
+
+Executing LspNotify Autocommands for "<buffer=1>"
+autocommand <Lua 469: /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/lua/vim/lsp/diagnostic.lua:363>
+
+Executing LspProgress Autocommands for "*"
+autocommand <Lua 216: ~/.local/share/nvim/lazy/fidget.nvim/lua/fidget/progress/lsp.lua:150>
+
+Executing LspProgress Autocommands for "*"
+autocommand <Lua 445: ~/.local/share/nvim/lazy/noice.nvim/lua/noice/lsp/progress.lua:94>
+
+Executing BufNew Autocommands for "*"
+autocommand <Lua 441: ~/.local/share/nvim/lazy/which-key.nvim/lua/which-key/state.lua:135>
+
+Executing FileType Autocommands for "*"
+autocommand call s:LoadFTPlugin()
+
+not found in runtime path: "ftplugin/fidget[.]{vim,lua} ftplugin/fidget_*.{vim,lua} ftplugin/fidget/*.{vim,lua}"
+Executing FileType Autocommands for "*"
+autocommand call s:LoadIndent()
+
+not found in runtime path: "indent/fidget[.]{vim,lua}"
+Executing FileType Autocommands for "*"
+autocommand <Lua 140: ~/.local/share/nvim/lazy/indent-blankline.nvim/lua/ibl/autocmds.lua:26>
+
+Executing FileType Autocommands for "*"
+autocommand <Lua 193: ~/.local/share/nvim/lazy/LuaSnip/plugin/luasnip.lua:77>
+
+Executing FileType Autocommands for "*"
+autocommand if exists('b:sleuth') | exe s:Init(0, 0, 0, 1) | endif
+
+Executing FileType Autocommands for "*"
+autocommand <Lua 206: ~/.local/share/nvim/lazy/render-markdown.nvim/lua/render-markdown/core/manager.lua:39>
+
+Executing FileType Autocommands for "*"
+autocommand <Lua 160: /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/lua/vim/lsp.lua:613>
+
+Executing FileType Autocommands for "*"
+autocommand <Lua 220: ~/.local/share/nvim/lazy/none-ls.nvim/lua/null-ls/init.lua:42>
+
+Executing FileType Autocommands for "*"
+autocommand <Lua 350: ~/.local/share/nvim/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:132>
+
+not found in runtime path: "parser/fidget.*"
+Executing FileType Autocommands for "*"
+autocommand <Lua 351: ~/.local/share/nvim/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:132>
+
+Executing FileType Autocommands for "*"
+autocommand if !exists('b:ts_highlight') | 0verbose exe "set syntax=" . expand("<amatch>") | endif
+
+Executing FileType Autocommands for "*"
+autocommand call v:lua.require'lualine'.refresh({'kind': 'tabpage', 'place': ['statusline'], 'trigger': 'autocmd'})
+
+Executing FileType Autocommands for "*"
+autocommand <Lua 552: ~/.local/share/nvim/lazy/nvim-autopairs/lua/nvim-autopairs.lua:78>
+
+Executing OptionSet Autocommands for "tabstop"
+autocommand <Lua 146: ~/.local/share/nvim/lazy/indent-blankline.nvim/lua/ibl/autocmds.lua:33>
+
+sourcing "nvim_exec2()"
+finished sourcing nvim_exec2()-- INSERT --
+sourcing "nvim_exec2()"
+finished sourcing nvim_exec2()-- INSERT --
+sourcing "nvim_exec2()"
+finished sourcing nvim_exec2()-- INSERT --
+sourcing "nvim_exec2()"
+finished sourcing nvim_exec2()-- INSERT --
+sourcing "nvim_exec2()"
+finished sourcing nvim_exec2()-- INSERT --
+sourcing "nvim_exec2()"
+finished sourcing nvim_exec2()-- INSERT --
+sourcing "nvim_exec2()"
+finished sourcing nvim_exec2()-- INSERT --
+sourcing "nvim_exec2()"
+finished sourcing nvim_exec2()-- INSERT --
+sourcing "nvim_exec2()"
+finished sourcing nvim_exec2()-- INSERT --
+sourcing "nvim_exec2()"
+finished sourcing nvim_exec2()-- INSERT --
+Executing ModeChanged Autocommands for "*"
+autocommand call v:lua.require'lualine'.refresh({'kind': 'tabpage', 'place': ['statusline'], 'trigger': 'autocmd'})
+
+Executing ModeChanged Autocommands for "*"
+autocommand <Lua 207: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/words.lua:42>
+
+Executing ModeChanged Autocommands for "*"
+autocommand <Lua 395: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/lib/buffer_events.lua:122>
+
+Executing ModeChanged Autocommands for "*"
+autocommand <Lua 437: ~/.local/share/nvim/lazy/which-key.nvim/lua/which-key/state.lua:93>
+
+Executing ModeChanged Autocommands for "<buffer=1>"
+autocommand <Lua 477: ~/.local/share/nvim/lazy/noice.nvim/lua/noice/lsp/signature.lua:122>
+
+
+Executing InsertLeave Autocommands for "*"
+autocommand <Lua 189: ~/.local/share/nvim/lazy/LuaSnip/lua/luasnip/init.lua:654>
+
+Executing InsertLeave Autocommands for "*"
+autocommand <Lua 221: ~/.local/share/nvim/lazy/none-ls.nvim/lua/null-ls/init.lua:48>
+
+Executing InsertLeave Autocommands for "*"
+autocommand <Lua 411: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/scroll.lua:152>
+
+Executing InsertLeave Autocommands for "*"
+autocommand <Lua 115: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/lib/buffer_events.lua:74>
+
+Executing InsertLeave Autocommands for "*"
+autocommand <Lua 153: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/sources/snippets/default/builtin.lua:190>
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 103: ~/.local/share/nvim/lazy/indent-blankline.nvim/lua/ibl/autocmds.lua:26>
+
+not found in runtime path: "parser/html.*"
+Executing CursorMoved Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 360: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/scope.lua:672>
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 415: vim/_editor.lua:0>
+
+Executing CursorMoved Autocommands for "*"
+autocommand call v:lua.require'lualine'.refresh({'kind': 'tabpage', 'place': ['statusline'], 'trigger': 'autocmd'})
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 222: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/words.lua:42>
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 132: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/lib/buffer_events.lua:81>
+
+Executing CursorMoved Autocommands for "<buffer=1>"
+autocommand <Lua 587: /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/lua/vim/snippet.lua:338>
+
+Executing WinClosed Autocommands for "*"
+autocommand <Lua 339: ~/.local/share/nvim/lazy/nvim-tree.lua/lua/nvim-tree.lua:244>
+
+Executing WinClosed Autocommands for "*"
+autocommand <Lua 357: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/scope.lua:680>
+
+Executing WinClosed Autocommands for "*"
+autocommand <Lua 383: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/indent.lua:521>
+
+Executing WinClosed Autocommands for "*"
+autocommand <Lua 339: ~/.local/share/nvim/lazy/nvim-tree.lua/lua/nvim-tree.lua:244>
+
+Executing WinClosed Autocommands for "*"
+autocommand <Lua 357: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/scope.lua:680>
+
+Executing WinClosed Autocommands for "*"
+autocommand <Lua 383: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/indent.lua:521>
+
+Executing WinClosed Autocommands for "*"
+autocommand <Lua 339: ~/.local/share/nvim/lazy/nvim-tree.lua/lua/nvim-tree.lua:244>
+
+Executing WinClosed Autocommands for "*"
+autocommand <Lua 357: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/scope.lua:680>
+
+Executing WinClosed Autocommands for "*"
+autocommand <Lua 383: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/indent.lua:521>
+
+Executing LspNotify Autocommands for "<buffer=1>"
+autocommand <Lua 469: /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/lua/vim/lsp/diagnostic.lua:363>
+
+sourcing "nvim_exec2()"
+finished sourcing nvim_exec2()
+sourcing "nvim_exec2()"
+finished sourcing nvim_exec2()
+sourcing "nvim_exec2()"
+finished sourcing nvim_exec2()
+sourcing "nvim_exec2()"
+finished sourcing nvim_exec2()
+sourcing "nvim_exec2()"
+finished sourcing nvim_exec2()
+sourcing "nvim_exec2()"
+finished sourcing nvim_exec2()
+Executing ModeChanged Autocommands for "*"
+autocommand call v:lua.require'lualine'.refresh({'kind': 'tabpage', 'place': ['statusline'], 'trigger': 'autocmd'})
+
+Executing ModeChanged Autocommands for "*"
+autocommand <Lua 207: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/words.lua:42>
+
+Executing ModeChanged Autocommands for "*"
+autocommand <Lua 395: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/lib/buffer_events.lua:122>
+
+Executing ModeChanged Autocommands for "*"
+autocommand <Lua 437: ~/.local/share/nvim/lazy/which-key.nvim/lua/which-key/state.lua:93>
+
+Executing ModeChanged Autocommands for "<buffer=1>"
+autocommand <Lua 477: ~/.local/share/nvim/lazy/noice.nvim/lua/noice/lsp/signature.lua:122>
+
+
+Executing BufWritePre Autocommands for "<buffer=1>"
+autocommand <Lua 364: /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/lua/vim/lsp.lua:938>
+
+Executing BufWritePre Autocommands for "<buffer=1>"
+autocommand <Lua 71: ~/.config/nvim/lua/null_ls.lua:23>
+
+Executing LspNotify Autocommands for "<buffer=1>"
+autocommand <Lua 469: /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/lua/vim/lsp/diagnostic.lua:363>
+
+Executing LspNotify Autocommands for "<buffer=1>"
+autocommand <Lua 469: /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/lua/vim/lsp/diagnostic.lua:363>
+
+Executing LspNotify Autocommands for "<buffer=1>"
+autocommand <Lua 469: /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/lua/vim/lsp/diagnostic.lua:363>
+
+Executing LspProgress Autocommands for "*"
+autocommand <Lua 216: ~/.local/share/nvim/lazy/fidget.nvim/lua/fidget/progress/lsp.lua:150>
+
+Executing LspProgress Autocommands for "*"
+autocommand <Lua 445: ~/.local/share/nvim/lazy/noice.nvim/lua/noice/lsp/progress.lua:94>
+
+Executing LspProgress Autocommands for "*"
+autocommand <Lua 216: ~/.local/share/nvim/lazy/fidget.nvim/lua/fidget/progress/lsp.lua:150>
+
+Executing LspProgress Autocommands for "*"
+autocommand <Lua 445: ~/.local/share/nvim/lazy/noice.nvim/lua/noice/lsp/progress.lua:94>
+
+Executing LspProgress Autocommands for "*"
+autocommand <Lua 216: ~/.local/share/nvim/lazy/fidget.nvim/lua/fidget/progress/lsp.lua:150>
+
+Executing LspProgress Autocommands for "*"
+autocommand <Lua 445: ~/.local/share/nvim/lazy/noice.nvim/lua/noice/lsp/progress.lua:94>
+
+"a.html" 
+"a.html" 23L, 140B written
+Writing undo file: /Users/douwe/.local/state/nvim/undo/%Users%douwe%Documents%Taiwan%Web Layout design and programming%a.html
+Executing BufWritePost Autocommands for "*"
+autocommand <Lua 119: ~/.local/share/nvim/lazy/gitsigns.nvim/lua/gitsigns.lua:170>
+
+Executing BufWritePost Autocommands for "*"
+autocommand <Lua 188: ~/.local/share/nvim/lazy/LuaSnip/lua/luasnip/loaders/fs_watchers.lua:66>
+
+Executing BufWritePost Autocommands for "<buffer=1>"
+autocommand <Lua 365: /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/lua/vim/lsp.lua:965>
+
+Executing BufWritePost Autocommands for "*"
+autocommand lua require'lualine.components.diff.git_diff'.update_git_diff()
+
+Executing BufWritePost Autocommands for "*"
+autocommand call v:lua.require'lualine'.refresh({'kind': 'tabpage', 'place': ['statusline'], 'trigger': 'autocmd'})
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 103: ~/.local/share/nvim/lazy/indent-blankline.nvim/lua/ibl/autocmds.lua:26>
+
+not found in runtime path: "parser/html.*"
+Executing CursorMoved Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 360: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/scope.lua:672>
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 415: vim/_editor.lua:0>
+
+Executing CursorMoved Autocommands for "*"
+autocommand call v:lua.require'lualine'.refresh({'kind': 'tabpage', 'place': ['statusline'], 'trigger': 'autocmd'})
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 222: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/words.lua:42>
+
+Executing CursorMoved Autocommands for "*"
+autocommand <Lua 132: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/lib/buffer_events.lua:81>
+
+Executing CursorMoved Autocommands for "<buffer=1>"
+autocommand <Lua 587: /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/lua/vim/snippet.lua:338>
+
+Executing TextChanged Autocommands for "*"
+autocommand <Lua 141: ~/.local/share/nvim/lazy/indent-blankline.nvim/lua/ibl/autocmds.lua:26>
+
+Executing TextChanged Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing TextChanged Autocommands for "*"
+autocommand <Lua 413: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/scroll.lua:152>
+
+Executing TextChanged Autocommands for "<buffer=1>"
+autocommand <Lua 589: /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/lua/vim/snippet.lua:382>
+
+Executing WinClosed Autocommands for "*"
+autocommand <Lua 339: ~/.local/share/nvim/lazy/nvim-tree.lua/lua/nvim-tree.lua:244>
+
+Executing WinClosed Autocommands for "*"
+autocommand <Lua 357: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/scope.lua:680>
+
+Executing WinClosed Autocommands for "*"
+autocommand <Lua 383: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/indent.lua:521>
+
+Executing BufWipeout Autocommands for "*"
+autocommand <Lua 191: ~/.local/share/nvim/lazy/LuaSnip/lua/luasnip/config.lua:116>
+
+Executing BufWipeout Autocommands for "*"
+autocommand <Lua 379: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/scope.lua:680>
+
+Executing BufWipeout Autocommands for "*"
+autocommand <Lua 385: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/indent.lua:521>
+
+Executing BufWipeout Autocommands for "*"
+autocommand <Lua 535: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/sources/buffer/recency.lua:21>
+
+autocommand <Lua 540: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/sources/buffer/cache.lua:17>
+
+Executing WinClosed Autocommands for "*"
+autocommand <Lua 339: ~/.local/share/nvim/lazy/nvim-tree.lua/lua/nvim-tree.lua:244>
+
+Executing WinClosed Autocommands for "*"
+autocommand <Lua 357: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/scope.lua:680>
+
+Executing WinClosed Autocommands for "*"
+autocommand <Lua 383: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/indent.lua:521>
+
+Executing WinClosed Autocommands for "1012"
+autocommand <Lua 622: ~/.local/share/nvim/lazy/noice.nvim/lua/noice/view/scrollbar.lua:58>
+
+Executing BufWipeout Autocommands for "*"
+autocommand <Lua 191: ~/.local/share/nvim/lazy/LuaSnip/lua/luasnip/config.lua:116>
+
+Executing BufWipeout Autocommands for "*"
+autocommand <Lua 379: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/scope.lua:680>
+
+Executing BufWipeout Autocommands for "*"
+autocommand <Lua 385: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/indent.lua:521>
+
+Executing BufWipeout Autocommands for "*"
+autocommand <Lua 535: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/sources/buffer/recency.lua:21>
+
+autocommand <Lua 540: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/sources/buffer/cache.lua:17>
+
+Executing LspNotify Autocommands for "<buffer=1>"
+autocommand <Lua 469: /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/lua/vim/lsp/diagnostic.lua:363>
+
+Executing LspNotify Autocommands for "<buffer=1>"
+autocommand <Lua 469: /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/lua/vim/lsp/diagnostic.lua:363>
+
+Executing LspNotify Autocommands for "<buffer=1>"
+autocommand <Lua 469: /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/lua/vim/lsp/diagnostic.lua:363>
+
+sourcing "nvim_exec2()"
+finished sourcing nvim_exec2()
+Executing WinResized Autocommands for "*"
+autocommand <Lua 210: ~/.local/share/nvim/lazy/render-markdown.nvim/lua/render-markdown/core/manager.lua:46>
+
+Executing WinResized Autocommands for "*"
+autocommand <Lua 475: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/completion/windows/menu.lua:61>
+
+Executing WinScrolled Autocommands for "*"
+autocommand <Lua 150: ~/.local/share/nvim/lazy/indent-blankline.nvim/lua/ibl/autocmds.lua:40>
+
+Executing WinScrolled Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing WinScrolled Autocommands for "*"
+autocommand <Lua 418: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/scroll.lua:191>
+
+Executing WinScrolled Autocommands for "*"
+autocommand <Lua 476: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/completion/windows/menu.lua:61>
+
+Executing BufNew Autocommands for "*"
+autocommand <Lua 441: ~/.local/share/nvim/lazy/which-key.nvim/lua/which-key/state.lua:135>
+
+Executing BufNew Autocommands for "*"
+autocommand <Lua 441: ~/.local/share/nvim/lazy/which-key.nvim/lua/which-key/state.lua:135>
+
+Executing FileType Autocommands for "*"
+autocommand call s:LoadFTPlugin()
+
+not found in runtime path: "ftplugin/noice[.]{vim,lua} ftplugin/noice_*.{vim,lua} ftplugin/noice/*.{vim,lua}"
+Executing FileType Autocommands for "*"
+autocommand call s:LoadIndent()
+
+not found in runtime path: "indent/noice[.]{vim,lua}"
+Executing FileType Autocommands for "*"
+autocommand <Lua 140: ~/.local/share/nvim/lazy/indent-blankline.nvim/lua/ibl/autocmds.lua:26>
+
+Executing FileType Autocommands for "*"
+autocommand <Lua 193: ~/.local/share/nvim/lazy/LuaSnip/plugin/luasnip.lua:77>
+
+Executing FileType Autocommands for "*"
+autocommand if exists('b:sleuth') | exe s:Init(0, 0, 0, 1) | endif
+
+Executing FileType Autocommands for "*"
+autocommand <Lua 206: ~/.local/share/nvim/lazy/render-markdown.nvim/lua/render-markdown/core/manager.lua:39>
+
+Executing FileType Autocommands for "*"
+autocommand <Lua 160: /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/lua/vim/lsp.lua:613>
+
+Executing FileType Autocommands for "*"
+autocommand <Lua 220: ~/.local/share/nvim/lazy/none-ls.nvim/lua/null-ls/init.lua:42>
+
+Executing FileType Autocommands for "*"
+autocommand <Lua 350: ~/.local/share/nvim/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:132>
+
+Executing FileType Autocommands for "*"
+autocommand <Lua 351: ~/.local/share/nvim/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:132>
+
+Executing FileType Autocommands for "*"
+autocommand if !exists('b:ts_highlight') | 0verbose exe "set syntax=" . expand("<amatch>") | endif
+
+Executing FileType Autocommands for "*"
+autocommand call v:lua.require'lualine'.refresh({'kind': 'tabpage', 'place': ['statusline'], 'trigger': 'autocmd'})
+
+Executing FileType Autocommands for "*"
+autocommand <Lua 552: ~/.local/share/nvim/lazy/nvim-autopairs/lua/nvim-autopairs.lua:78>
+
+Executing BufWinEnter Autocommands for "*"
+autocommand <Lua 135: ~/.local/share/nvim/lazy/indent-blankline.nvim/lua/ibl/autocmds.lua:26>
+
+Executing BufWinEnter Autocommands for "*"
+autocommand <Lua 192: ~/.local/share/nvim/lazy/LuaSnip/plugin/luasnip.lua:77>
+
+Executing BufWinEnter Autocommands for "*"
+autocommand autocmd SafeState * ++once call s:Highlight_Matching_Pair()
+
+Executing BufWinEnter Autocommands for "*"
+autocommand <Lua 412: vim/_editor.lua:0>
+
+Executing BufWinEnter Autocommands for "*"
+autocommand <Lua 554: ~/.local/share/nvim/lazy/nvim-autopairs/lua/nvim-autopairs.lua:62>
+
+Executing BufWinEnter Autocommands for "<buffer=10>"
+autocommand <Lua 638: ~/.local/share/nvim/lazy/nui.nvim/lua/nui/popup/init.lua:225>
+
+Executing BufNew Autocommands for "*"
+autocommand <Lua 441: ~/.local/share/nvim/lazy/which-key.nvim/lua/which-key/state.lua:135>
+
+Executing FileType Autocommands for "*"
+autocommand call s:LoadFTPlugin()
+
+not found in runtime path: "ftplugin/snacks_notif[.]{vim,lua} ftplugin/snacks_notif_*.{vim,lua} ftplugin/snacks_notif/*.{vim,lua}"
+Executing FileType Autocommands for "*"
+autocommand call s:LoadIndent()
+
+not found in runtime path: "indent/snacks_notif[.]{vim,lua}"
+Executing FileType Autocommands for "*"
+autocommand <Lua 140: ~/.local/share/nvim/lazy/indent-blankline.nvim/lua/ibl/autocmds.lua:26>
+
+Executing FileType Autocommands for "*"
+autocommand <Lua 193: ~/.local/share/nvim/lazy/LuaSnip/plugin/luasnip.lua:77>
+
+Executing FileType Autocommands for "*"
+autocommand if exists('b:sleuth') | exe s:Init(0, 0, 0, 1) | endif
+
+Executing FileType Autocommands for "*"
+autocommand <Lua 206: ~/.local/share/nvim/lazy/render-markdown.nvim/lua/render-markdown/core/manager.lua:39>
+
+Executing FileType Autocommands for "*"
+autocommand <Lua 160: /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/lua/vim/lsp.lua:613>
+
+Executing FileType Autocommands for "*"
+autocommand <Lua 220: ~/.local/share/nvim/lazy/none-ls.nvim/lua/null-ls/init.lua:42>
+
+Executing FileType Autocommands for "*"
+autocommand <Lua 350: ~/.local/share/nvim/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:132>
+
+Executing FileType Autocommands for "*"
+autocommand <Lua 351: ~/.local/share/nvim/lazy/nvim-treesitter/lua/nvim-treesitter/configs.lua:132>
+
+Executing FileType Autocommands for "*"
+autocommand if !exists('b:ts_highlight') | 0verbose exe "set syntax=" . expand("<amatch>") | endif
+
+Executing FileType Autocommands for "*"
+autocommand call v:lua.require'lualine'.refresh({'kind': 'tabpage', 'place': ['statusline'], 'trigger': 'autocmd'})
+
+Executing FileType Autocommands for "*"
+autocommand <Lua 552: ~/.local/share/nvim/lazy/nvim-autopairs/lua/nvim-autopairs.lua:78>
+
+Executing OptionSet Autocommands for "list"
+autocommand <Lua 143: ~/.local/share/nvim/lazy/indent-blankline.nvim/lua/ibl/autocmds.lua:33>
+
+Executing OptionSet Autocommands for "listchars"
+autocommand <Lua 144: ~/.local/share/nvim/lazy/indent-blankline.nvim/lua/ibl/autocmds.lua:33>
+
+Executing Syntax Autocommands for "*"
+autocommand call s:SynSet()
+
+Executing SafeState Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+sourcing "nvim_exec2()"
+finished sourcing nvim_exec2()
+not found in runtime path: "parser/html.*"
+Executing LspProgress Autocommands for "*"
+autocommand <Lua 216: ~/.local/share/nvim/lazy/fidget.nvim/lua/fidget/progress/lsp.lua:150>
+
+Executing LspProgress Autocommands for "*"
+autocommand <Lua 445: ~/.local/share/nvim/lazy/noice.nvim/lua/noice/lsp/progress.lua:94>
+
+Executing LspProgress Autocommands for "*"
+autocommand <Lua 216: ~/.local/share/nvim/lazy/fidget.nvim/lua/fidget/progress/lsp.lua:150>
+
+Executing LspProgress Autocommands for "*"
+autocommand <Lua 445: ~/.local/share/nvim/lazy/noice.nvim/lua/noice/lsp/progress.lua:94>
+
+sourcing "nvim_exec2()"
+finished sourcing nvim_exec2()
+Executing WinResized Autocommands for "*"
+autocommand <Lua 210: ~/.local/share/nvim/lazy/render-markdown.nvim/lua/render-markdown/core/manager.lua:46>
+
+Executing WinResized Autocommands for "*"
+autocommand <Lua 475: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/completion/windows/menu.lua:61>
+
+Executing WinScrolled Autocommands for "*"
+autocommand <Lua 150: ~/.local/share/nvim/lazy/indent-blankline.nvim/lua/ibl/autocmds.lua:40>
+
+Executing WinScrolled Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing WinScrolled Autocommands for "*"
+autocommand <Lua 418: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/scroll.lua:191>
+
+Executing WinScrolled Autocommands for "*"
+autocommand <Lua 476: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/completion/windows/menu.lua:61>
+
+Executing LspProgress Autocommands for "*"
+autocommand <Lua 216: ~/.local/share/nvim/lazy/fidget.nvim/lua/fidget/progress/lsp.lua:150>
+
+Executing LspProgress Autocommands for "*"
+autocommand <Lua 445: ~/.local/share/nvim/lazy/noice.nvim/lua/noice/lsp/progress.lua:94>
+
+sourcing "nvim_exec2()"
+finished sourcing nvim_exec2()
+Executing WinResized Autocommands for "*"
+autocommand <Lua 210: ~/.local/share/nvim/lazy/render-markdown.nvim/lua/render-markdown/core/manager.lua:46>
+
+Executing WinResized Autocommands for "*"
+autocommand <Lua 475: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/completion/windows/menu.lua:61>
+
+Executing WinScrolled Autocommands for "*"
+autocommand <Lua 150: ~/.local/share/nvim/lazy/indent-blankline.nvim/lua/ibl/autocmds.lua:40>
+
+Executing WinScrolled Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing WinScrolled Autocommands for "*"
+autocommand <Lua 418: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/scroll.lua:191>
+
+Executing WinScrolled Autocommands for "*"
+autocommand <Lua 476: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/completion/windows/menu.lua:61>
+
+sourcing "nvim_exec2()"
+finished sourcing nvim_exec2()
+sourcing "nvim_exec2()"
+finished sourcing nvim_exec2()
+sourcing "nvim_exec2()"
+finished sourcing nvim_exec2()
+sourcing "nvim_exec2()"
+finished sourcing nvim_exec2()
+sourcing "nvim_exec2()"
+finished sourcing nvim_exec2()
+sourcing "nvim_exec2()"
+finished sourcing nvim_exec2()
+sourcing "nvim_exec2()"
+finished sourcing nvim_exec2()
+sourcing "nvim_exec2()"
+finished sourcing nvim_exec2()
+sourcing "nvim_exec2()"
+finished sourcing nvim_exec2()
+Executing ModeChanged Autocommands for "*"
+autocommand call v:lua.require'lualine'.refresh({'kind': 'tabpage', 'place': ['statusline'], 'trigger': 'autocmd'})
+
+Executing ModeChanged Autocommands for "*"
+autocommand <Lua 207: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/words.lua:42>
+
+Executing ModeChanged Autocommands for "*"
+autocommand <Lua 395: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/lib/buffer_events.lua:122>
+
+Executing ModeChanged Autocommands for "*"
+autocommand <Lua 437: ~/.local/share/nvim/lazy/which-key.nvim/lua/which-key/state.lua:93>
+
+Executing ModeChanged Autocommands for "<buffer=1>"
+autocommand <Lua 477: ~/.local/share/nvim/lazy/noice.nvim/lua/noice/lsp/signature.lua:122>
+
+
+Executing QuitPre Autocommands for "*"
+autocommand <Lua 569: vim/_editor.lua:0>
+
+Executing ExitPre Autocommands for "*"
+autocommand <Lua 133: ~/.local/share/nvim/lazy/fzf-lua/lua/fzf-lua/init.lua:47>
+
+Executing VimLeavePre Autocommands for "*"
+autocommand <Lua 101: ~/.local/share/nvim/lazy/flutter-tools.nvim/lua/flutter-tools.lua:117>
+
+Executing VimLeavePre Autocommands for "*"
+autocommand <Lua 129: /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/lua/vim/lsp.lua:1190>
+
+autocommand <Lua 269: ~/.local/share/nvim/lazy/mason.nvim/lua/mason/init.lua:9>
+
+Executing VimLeavePre Autocommands for "*"
+autocommand <Lua 317: ~/.local/share/nvim/lazy/harpoon/lua/harpoon/init.lua:158>
+
+Executing VimLeavePre Autocommands for "*"
+autocommand <Lua 293: ~/.local/share/nvim/lazy/bufferline.nvim/lua/bufferline/hover.lua:48>
+
+Executing VimLeavePre Autocommands for "*"
+autocommand <Lua 393: ~/.local/share/nvim/lazy/gitsigns.nvim/lua/gitsigns/attach.lua:401>
+
+Executing VimLeavePre Autocommands for "*"
+autocommand <Lua 490: ~/.local/share/nvim/lazy/noice.nvim/lua/noice/init.lua:58>
+
+Executing VimLeavePre Autocommands for "*"
+autocommand <Lua 563>
+
+Writing ShaDa file "/Users/douwe/.local/state/nvim/shada/main.shada"
+Executing VimLeave Autocommands for "*"
+autocommand <Lua 205: ~/.local/share/nvim/lazy/render-markdown.nvim/lua/render-markdown/core/log.lua:154>
+
+Executing WinClosed Autocommands for "*"
+autocommand <Lua 339: ~/.local/share/nvim/lazy/nvim-tree.lua/lua/nvim-tree.lua:244>
+
+Executing WinClosed Autocommands for "*"
+autocommand <Lua 357: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/scope.lua:680>
+
+Executing WinClosed Autocommands for "*"
+autocommand <Lua 383: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/indent.lua:521>
+
+Executing BufWipeout Autocommands for "*"
+autocommand <Lua 191: ~/.local/share/nvim/lazy/LuaSnip/lua/luasnip/config.lua:116>
+
+Executing BufWipeout Autocommands for "*"
+autocommand <Lua 379: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/scope.lua:680>
+
+Executing BufWipeout Autocommands for "*"
+autocommand <Lua 385: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/indent.lua:521>
+
+Executing BufWipeout Autocommands for "*"
+autocommand <Lua 535: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/sources/buffer/recency.lua:21>
+
+autocommand <Lua 540: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/sources/buffer/cache.lua:17>
+
+Executing WinClosed Autocommands for "*"
+autocommand <Lua 339: ~/.local/share/nvim/lazy/nvim-tree.lua/lua/nvim-tree.lua:244>
+
+Executing WinClosed Autocommands for "*"
+autocommand <Lua 357: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/scope.lua:680>
+
+Executing WinClosed Autocommands for "*"
+autocommand <Lua 383: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/indent.lua:521>
+
+Executing WinClosed Autocommands for "1017"
+autocommand <Lua 579: ~/.local/share/nvim/lazy/noice.nvim/lua/noice/view/scrollbar.lua:58>
+
+Executing BufWipeout Autocommands for "*"
+autocommand <Lua 191: ~/.local/share/nvim/lazy/LuaSnip/lua/luasnip/config.lua:116>
+
+Executing BufWipeout Autocommands for "*"
+autocommand <Lua 379: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/scope.lua:680>
+
+Executing BufWipeout Autocommands for "*"
+autocommand <Lua 385: ~/.local/share/nvim/lazy/snacks.nvim/lua/snacks/indent.lua:521>
+
+Executing BufWipeout Autocommands for "*"
+autocommand <Lua 535: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/sources/buffer/recency.lua:21>
+
+autocommand <Lua 540: ~/.local/share/nvim/lazy/blink.cmp/lua/blink/cmp/sources/buffer/cache.lua:17>
+
+Executing LspDetach Autocommands for "*"
+autocommand <Lua 217: ~/.local/share/nvim/lazy/fidget.nvim/lua/fidget/progress/lsp.lua:167>
+
+Executing LspDetach Autocommands for "*"
+autocommand <Lua 439: ~/.local/share/nvim/lazy/which-key.nvim/lua/which-key/state.lua:126>
+
+Executing LspDetach Autocommands for "<buffer=1>"
+autocommand <Lua 398: /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/lua/vim/lsp/diagnostic.lua:391>
+
+Executing UILeave Autocommands for "*"
+autocommand <Lua 255: /opt/homebrew/Cellar/neovim/0.11.4/share/nvim/runtime/plugin/osc52.lua:55>

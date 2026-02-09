@@ -46,7 +46,6 @@ vim.o.mousemoveevent = true
 require('plugin')
 require('keymap')
 require('telescoop')
-require('hpoon')
 require('lsp')
 require('diagnostic')
 require('null_ls')

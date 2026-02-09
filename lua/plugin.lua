@@ -28,7 +28,6 @@ require('lazy').setup({
     -- Git related plugins
     'tpope/vim-fugitive',
     'tpope/vim-rhubarb',
-    'L3MON4D3/LuaSnip',
     'ThePrimeagen/vim-be-good',
     'nvimtools/none-ls.nvim',
     -- Nvim-tree
@@ -39,7 +38,6 @@ require('lazy').setup({
     'nvim-tree/nvim-web-devicons',
     -- Detect tabstop and shiftwidth automatically
     'tpope/vim-sleuth',
-    'windwp/nvim-autopairs',
     'OmniSharp/omnisharp-vim',
     'scrooloose/nerdcommenter',
     -- NOTE: This is where your plugins related to LSP can be installed.
@@ -59,6 +57,37 @@ require('lazy').setup({
             'folke/neodev.nvim',
             'saghen/blink.cmp'
         },
+    },
+    {
+        'L3MON4D3/LuaSnip',
+        version = "v2.*",
+        build = 'make install_jsregexp',
+        dependencies = { 'rafamadriz/friendly-snippets' },
+        config = function()
+            local luasnip = require('luasnip')
+
+            -- Load snippets from friendly-snippets
+            require("luasnip.loaders.from_vscode").lazy_load()
+
+            luasnip.config.set_config({
+                history = true,
+                updateevents = "TextChanged,TextChangedI",
+                region_check_events = "CursorMoved,CursorHold",
+                delete_check_events = "TextChanged,InsertLeave",
+                -- Exit snippet mode when leaving insert mode
+                enable_autosnippets = true,
+            })
+
+            -- Unlink snippet when leaving insert mode
+            vim.api.nvim_create_autocmd("InsertLeave", {
+                callback = function()
+                    if luasnip.session.current_nodes[vim.api.nvim_get_current_buf()]
+                        and not luasnip.session.jump_active then
+                        luasnip.unlink_current()
+                    end
+                end,
+            })
+        end
     },
     {
         'windwp/nvim-autopairs',
@@ -128,12 +157,6 @@ require('lazy').setup({
             -- elsewhere in your config, without redefining it, via `opts_extend`
             sources = {
                 default = { 'lsp', 'snippets', 'path', 'buffer' },
-                providers = {
-                    lsp = { priority = 1000 },
-                    snippets = { priority = 900 },
-                    path = { priority = 700 },
-                    buffer = { priority = 400 },
-                },
             },
 
             -- experimental signature help support
@@ -280,15 +303,6 @@ require('lazy').setup({
         end
     },
     {
-        'MeanderingProgrammer/render-markdown.nvim',
-        dependencies = { 'nvim-treesitter/nvim-treesitter', 'echasnovski/mini.nvim' }, -- if you use the mini.nvim suite
-        -- dependencies = { 'nvim-treesitter/nvim-treesitter', 'echasnovski/mini.icons' }, -- if you use standalone mini plugins
-        -- dependencies = { 'nvim-treesitter/nvim-treesitter', 'nvim-tree/nvim-web-devicons' }, -- if you prefer nvim-web-devicons
-        ---@module 'render-markdown'
-        ---@type render.md.UserConfig
-        opts = {},
-    },
-    {
         -- Highlight, edit, and navigate code
         'nvim-treesitter/nvim-treesitter',
         dependencies = {
@@ -296,12 +310,8 @@ require('lazy').setup({
         },
         build = ':TSUpdate',
     },
-    { 'akinsho/bufferline.nvim', version = "*", dependencies = 'nvim-tree/nvim-web-devicons' },
-    {
-        "ThePrimeagen/harpoon",
-        branch = "harpoon2",
-        dependencies = { "nvim-lua/plenary.nvim" },
-    },
+    { 'akinsho/bufferline.nvim',     version = "*", dependencies = 'nvim-tree/nvim-web-devicons' },
+    { 'JuliaEditorSupport/julia-vim' },
     --{
     --    "linux-cultist/venv-selector.nvim",
     --    dependencies = {
@@ -318,15 +328,6 @@ require('lazy').setup({
     --        { ",v", "<cmd>VenvSelect<cr>" },
     --    },
     --},
-    {
-        'nvim-flutter/flutter-tools.nvim',
-        lazy = false,
-        dependencies = {
-            'nvim-lua/plenary.nvim',
-            'stevearc/dressing.nvim', -- optional for vim.ui.select
-        },
-        config = true,
-    },
     --       These are some example plugins that I've included in the kickstart repository.
     --       Uncomment any of the lines below to enable them.
     -- require 'kickstart.plugins.autoformat',

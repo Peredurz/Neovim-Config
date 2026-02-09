@@ -25,3 +25,25 @@ vim.api.nvim_set_keymap("n", "<leader>tc", "<CMD>NvimTreeClose<CR>", { noremap =
 vim.api.nvim_set_keymap("n", "<leader>ts", "<CMD>TSEnable highlight<CR>", { noremap = true })
 vim.api.nvim_set_keymap("n", "<leader>i", "<CMD>lua vim.lsp.buf.hover()<CR>", { noremap = true })
 vim.api.nvim_set_keymap("n", "<leader>nd", "<CMD>NoiceDismiss<CR>", { noremap = true, desc = "Dismiss Noice Message" })
+
+-- Properly exit snippet/select mode
+vim.keymap.set({ "i", "s" }, "<C-c>", function()
+    if require('luasnip').in_snippet() then
+        require('luasnip').unlink_current()
+    end
+    return "<C-c>"
+end, { expr = true, silent = true, desc = "Exit snippet mode" })
+
+-- Jump forward in snippet
+vim.keymap.set({ "i", "s" }, "<C-j>", function()
+    if require('luasnip').expand_or_jumpable() then
+        require('luasnip').expand_or_jump()
+    end
+end, { silent = true, desc = "Expand or jump in snippet" })
+
+-- Jump backward in snippet
+vim.keymap.set({ "i", "s" }, "<C-k>", function()
+    if require('luasnip').jumpable(-1) then
+        require('luasnip').jump(-1)
+    end
+end, { silent = true, desc = "Jump backward in snippet" })
