@@ -1,18 +1,10 @@
-require("lazy").setup({ {
-  "nvim-treesitter/nvim-treesitter",
-  build = ":TSUpdate",
-  config = function()
-    local configs = require("nvim-treesitter.configs")
-
-    configs.setup({
-      ensure_installed = { "c", "lua", "vim", "vimdoc", "query", "elixir", "heex", "javascript", "html", "haskell", "go", "c_sharp", "dart" },
-      sync_install = true,
-      auto_install = true,
-      highlight = { enable = true },
-      indent = { enable = true },
-      modules = {},
-      ignore_install = {},
-    })
-  end
-} })
+require("nvim-treesitter.configs").setup({
+  ensure_installed = { "c", "lua", "vim", "vimdoc", "query", "elixir", "heex", "javascript", "html", "haskell", "go", "c_sharp", "dart" },
+  sync_install = true,
+  auto_install = true,
+  highlight = { enable = true },
+  indent = { enable = true },
+  modules = {},
+  ignore_install = {},
+})
 

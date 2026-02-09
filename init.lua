@@ -58,8 +58,10 @@ require('bufferl')
 -- See `:help vim.o`
 -- NOTE: You can change these options as you wish!
 
-vim.cmd('TSEnable highlight')
-vim.cmd('TSEnable indent')
+--[[
+   [vim.cmd('TSEnable highlight')
+   [vim.cmd('TSEnable indent')
+   ]]
 
 -- set control enter to accept completion
 
