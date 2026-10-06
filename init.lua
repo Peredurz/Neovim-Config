@@ -41,7 +41,9 @@ vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 vim.g.nofsync = true
 vim.o.mousemoveevent = true
-
+vim.opt.termguicolors=true
+vim.opt.runtimepath:append(vim.fn.stdpath('data') .. '/site')
+vim.cmd('syntax on')
 
 require('plugin')
 require('keymap')
@@ -52,7 +54,6 @@ require('null_ls')
 require('opts')
 require('nvim-boom')
 require('file-icons')
-require('treesitter')
 require('bufferl')
 -- [[ Setting options ]]
 -- See `:help vim.o`

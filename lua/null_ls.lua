@@ -12,6 +12,7 @@ null_ls.setup({
     null_ls.builtins.formatting.black.with({ extra_args = { "--fast" } }),
     null_ls.builtins.formatting.csharpier,
     null_ls.builtins.formatting.dart_format,
+    null_ls.builtins.formatting.terraform_fmt,
     -- diagnostics.flake8
   },
   on_attach = function(client, bufnr)

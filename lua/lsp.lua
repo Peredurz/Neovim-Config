@@ -49,11 +49,11 @@ end
 --  Add any additional override configuration in the following tables. They will be passed to
 --  the `settings` field of the server config. You must look up that documentation yourself.
 local servers = {
-  clangd = {
-    settings = {
-    }
-  },
-  pyright = {},
+  --clangd = {
+  --  settings = {
+  --  }
+  --},
+  --pyright = {},
   -- rust_analyzer = {},
   -- tsserver = {},
   lua_ls = {

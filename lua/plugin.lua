@@ -302,14 +302,6 @@ require('lazy').setup({
             require("fzf-lua").setup({})
         end
     },
-    {
-        -- Highlight, edit, and navigate code
-        'nvim-treesitter/nvim-treesitter',
-        dependencies = {
-            'nvim-treesitter/nvim-treesitter-textobjects',
-        },
-        build = ':TSUpdate',
-    },
     { 'akinsho/bufferline.nvim',     version = "*", dependencies = 'nvim-tree/nvim-web-devicons' },
     { 'JuliaEditorSupport/julia-vim' },
     {
@@ -317,6 +309,11 @@ require('lazy').setup({
         lazy = false, -- or ft = 'typst'
         version = '1.*',
         opts = {}, -- lazy.nvim will implicitly calls `setup {}`
+    },
+    {
+      'nvim-treesitter/nvim-treesitter',
+      lazy = false,
+      build = ':TSUpdate'
     },
     --{
     --    "linux-cultist/venv-selector.nvim",
@@ -334,16 +331,4 @@ require('lazy').setup({
     --        { ",v", "<cmd>VenvSelect<cr>" },
     --    },
     --},
-    --       These are some example plugins that I've included in the kickstart repository.
-    --       Uncomment any of the lines below to enable them.
-    -- require 'kickstart.plugins.autoformat',
-    -- require 'kickstart.plugins.debug',
-
-    -- NOTE: The import below can automatically add your own plugins, configuration, etc from `lua/custom/plugins/*.lua`
-    --    You can use this folder to prevent any conflicts with this init.lua if you're interested in keeping
-    --    up-to-date with whatever is in the kickstart repo.
-    --    Uncomment the following line and add your plugins to `lua/custom/plugins/*.lua` to get going.
-    --
-    --    For additional information see: https://github.com/folke/lazy.nvim#-structuring-your-plugins
-    --{ import = 'flutter' },
 }, {})
