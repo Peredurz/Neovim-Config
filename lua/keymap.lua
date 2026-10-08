@@ -20,6 +20,7 @@ vim.api.nvim_set_keymap("n", "<C-b>", ":BufferLineCloseOthers<CR>", { noremap=tr
 
 vim.api.nvim_set_keymap("n", "<leader>tn", "<CMD>tabnew<CR>", { noremap = true })
 vim.api.nvim_set_keymap("n", "<M-e>", "<CMD>NvimTreeToggle<CR>", { noremap = true })
+vim.api.nvim_set_keymap("n", "<M-f>", "<CMD>NvimTreeFocus<CR>", { noremap = true })
 vim.api.nvim_set_keymap("n", "<leader>ts", "<CMD>TSEnable highlight<CR>", { noremap = true })
 vim.api.nvim_set_keymap("n", "<leader>i", "<CMD>lua vim.lsp.buf.hover()<CR>", { noremap = true })
 vim.api.nvim_set_keymap("n", "<leader>nd", "<CMD>NoiceDismiss<CR>", { noremap = true, desc = "Dismiss Noice Message" })
